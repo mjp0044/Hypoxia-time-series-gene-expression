@@ -1,0 +1,224 @@
+Gene,Description,Process,Enzyme code,Gene.name.marked.by.us
+TCAL_16451,basic proline-rich -like isoform X1,Cuticle Modification,,Y
+TCAL_02114,circumsporozoite -like,Cuticle Modification,,Y
+TCAL_02014,Protein of unknown function (U-scoloptoxin(01)-Cw1a-like [Tigriopus californicus]),Cuticle Modification,,Y
+TCAL_11761,Similar to CSPG4 Chondroitin sulfate proteoglycan 4 (Homo sapiens),Cuticle Modification,,Y
+TCAL_13801,chitin deacetylase 2 isoform A precursor,Chitin Degradation,3.5.1.41,Y
+TCAL_10169,chitin deacetylase 5 isoform X6,Chitin Degradation,3.5.1.41,Y
+TCAL_13736,chitin deacetylase 5 isoform X6,Chitin Degradation,3.5.1.41,Y
+TCAL_11804,chitin deacetylase 9 precursor,Chitin Degradation,3.5.1.41,Y
+TCAL_06924,"PREDICTED: chitinase-like, partial",Chitin Degradation,3.2.1.14,Y
+TCAL_11179,probable chitinase 10,Chitin Degradation,3.2.1.14,Y
+TCAL_14811,probable chitinase 10,Chitin Degradation,3.2.1.14,Y
+TCAL_08179,probable chitinase 3,Chitin Degradation,3.2.1.14,Y
+TCAL_13698,Protein of unknown function (chitin deacetylase 1-like [Tigriopus californicus]),Chitin Degradation,3.5.1.41,Y
+TCAL_03002,Similar to CHI3L1 Chitinase-3-like protein 1 (Pongo abelii),Chitin Degradation,3.2.1.14,Y
+TCAL_01886,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_02085,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_02086,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_04451,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_11631,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_13004,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_17442,Similar to CHIA Acidic mammalian chitinase (Bos taurus),Chitin Degradation,3.2.1.14,Y
+TCAL_05550,Similar to chid1 Chitinase domain-containing protein 1 (Xenopus laevis),Chitin Degradation,3.2.1.14,Y
+TCAL_00287,Similar to Chitooligosaccharidolytic beta-N-acetylglucosaminidase (Bombyx mori),Chitin Degradation,,Y
+TCAL_02945,Similar to Chitooligosaccharidolytic beta-N-acetylglucosaminidase (Bombyx mori),Chitin Degradation,,Y
+TCAL_11061,Similar to Chitooligosaccharidolytic beta-N-acetylglucosaminidase (Bombyx mori),Chitin Degradation,,Y
+TCAL_15791,Similar to Chitooligosaccharidolytic beta-N-acetylglucosaminidase (Bombyx mori),Chitin Degradation,,Y
+TCAL_00831,Similar to Cht10 Probable chitinase 10 (Drosophila melanogaster),Chitin Degradation,3.2.1.14,Y
+TCAL_01968,Similar to Cht10 Probable chitinase 10 (Drosophila melanogaster),Chitin Degradation,3.2.1.14,Y
+TCAL_05051,Similar to Cht10 Probable chitinase 10 (Drosophila melanogaster),Chitin Degradation,3.2.1.14,Y
+TCAL_12860,Similar to Cht10 Probable chitinase 10 (Drosophila melanogaster),Chitin Degradation,3.2.1.14,Y
+TCAL_02426,Similar to Cht2 Probable chitinase 2 (Drosophila melanogaster),Chitin Degradation,3.2.1.14,Y
+TCAL_04315,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_05770,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_14252,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_14253,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_15140,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_16506,Similar to deaA Chitin disaccharide deacetylase (Vibrio alginolyticus),Chitin Degradation,3.5.1.41,Y
+TCAL_08182,Similar to Endochitinase (Manduca sexta),Chitin Degradation,3.2.1.14,Y
+TCAL_09700,Similar to ENGASE Cytosolic endo-beta-N-acetylglucosaminidase (Homo sapiens),Chitin Degradation,3.2.1.165,Y
+TCAL_15381,dentin sialophospho -like,Chitin Modification,,Y
+TCAL_05954,peritrophic membrane chitin binding,Chitin Modification,,Y
+TCAL_00276,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_01463,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_07268,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_11318,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_11320,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_12525,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_13279,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_13280,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_15553,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_16939,Similar to obst-E Protein obstructor-E (Drosophila melanogaster),Chitin Modification,,Y
+TCAL_05844,Similar to ALG14 UDP-N-acetylglucosamine transferase subunit ALG14 homolog (Homo sapiens),Chitin Synthesis,2.3.1.4,Y
+TCAL_01843,Similar to CG10688 Probable phosphomannomutase (Drosophila melanogaster),Chitin Synthesis,5.4.2.8,Y
+TCAL_00846,Similar to CG17065 N-acetylglucosamine-6-phosphate deacetylase (Drosophila melanogaster),Chitin Synthesis,3.5.1.25,Y
+TCAL_01570,Similar to CG1969 Probable glucosamine 6-phosphate N-acetyltransferase (Drosophila melanogaster),Chitin Synthesis,2.3.1.4,Y
+TCAL_06588,Similar to CHS3 Chitin synthase 3 (Exophiala dermatitidis),Chitin Synthesis,2.4.1.16,Y
+TCAL_08870,Similar to CHS8 Chitin synthase 8 (Ustilago maydis (strain 521 / FGSC 9021)),Chitin Synthesis,2.4.1.16,Y
+TCAL_11841,Similar to CHS8 Chitin synthase 8 (Ustilago maydis (strain 521 / FGSC 9021)),Chitin Synthesis,2.4.1.16,Y
+TCAL_11160,Similar to chst1 Carbohydrate sulfotransferase 1 (Danio rerio),Chitin Synthesis,1.1.1.22,Y
+TCAL_08620,Similar to chst10 Carbohydrate sulfotransferase 10 (Xenopus laevis),Chitin Synthesis,1.1.1.22,Y
+TCAL_02693,Similar to Chst8 Carbohydrate sulfotransferase 8 (Mus musculus),Chitin Synthesis,1.1.1.22,Y
+TCAL_10075,Similar to Fpgt Fucose-1-phosphate guanylyltransferase (Mus musculus),Chitin Synthesis,2.7.7.30,Y
+TCAL_05390,Similar to Gale UDP-glucose 4-epimerase (Drosophila melanogaster),Chitin Synthesis,5.1.3.2,Y
+TCAL_06535,Similar to GALK1 Galactokinase (Homo sapiens),Chitin Synthesis,2.7.1.6,Y
+TCAL_11698,Similar to Galk2 N-acetylgalactosamine kinase (Rattus norvegicus),Chitin Synthesis,2.7.1.157,Y
+TCAL_06115,Similar to Galt Probable galactose-1-phosphate uridylyltransferase (Drosophila melanogaster),Chitin Synthesis,2.7.7.12,Y
+TCAL_01756,Similar to GFPT1 Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1 (Homo sapiens),Chitin Synthesis,2.6.1.16,Y
+TCAL_17457,Similar to Gfpt1 Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1 (Mus musculus),Chitin Synthesis,2.6.1.16,Y
+TCAL_13735,Similar to Gfpt1 Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1 (Rattus norvegicus),Chitin Synthesis,2.6.1.16,Y
+TCAL_09280,Similar to GFPT2 Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 2 (Homo sapiens),Chitin Synthesis,2.6.1.16,Y
+TCAL_10047,Similar to GLCAK1 Glucuronokinase 1 (Arabidopsis thaliana),Chitin Synthesis,2.7.1.43,Y
+TCAL_03688,Similar to gmppaa Mannose-1-phosphate guanyltransferase alpha-A (Danio rerio),Chitin Synthesis,2.7.7.13,Y
+TCAL_06468,Similar to gmppb-a Mannose-1-phosphate guanyltransferase beta-A (Xenopus laevis),Chitin Synthesis,2.7.7.13,Y
+TCAL_12528,Similar to Gnpda1 Glucosamine-6-phosphate isomerase (Aedes aegypti),Chitin Synthesis,3.5.99.6,Y
+TCAL_13530,Similar to GPI Glucose-6-phosphate isomerase (Sus scrofa),Chitin Synthesis,3.5.99.6,Y
+TCAL_05169,Similar to HEXA Beta-hexosaminidase subunit alpha (Homo sapiens),Chitin Synthesis,3.2.1.52,Y
+TCAL_11505,Similar to Hexokinase (Schistosoma mansoni),Chitin Synthesis,2.7.1.1,Y
+TCAL_00191,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Chitin Synthesis,2.7.1.1,Y
+TCAL_02308,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Chitin Synthesis,2.7.1.1,Y
+TCAL_07243,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Chitin Synthesis,2.7.1.1,Y
+TCAL_09435,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Chitin Synthesis,2.7.1.1,Y
+TCAL_06470,Similar to HKDC1 Putative hexokinase HKDC1 (Homo sapiens),Chitin Synthesis,2.7.1.1,Y
+TCAL_01324,Similar to MPI Mannose-6-phosphate isomerase (Macaca fascicularis),Chitin Synthesis,5.3.1.8,Y
+TCAL_09678,Similar to NAGK N-acetyl-D-glucosamine kinase (Homo sapiens),Chitin Synthesis,2.7.1.59,Y
+TCAL_00722,Similar to PGM1 Phosphoglucomutase-1 (Bos taurus),Chitin Synthesis,5.4.2.3,Y
+TCAL_08206,Similar to PGM2 Phosphoglucomutase-2 (Homo sapiens),Chitin Synthesis,5.4.2.3,Y
+TCAL_02017,Similar to PGM3 Phosphoacetylglucosamine mutase (Sus scrofa),Chitin Synthesis,5.4.2.3,Y
+TCAL_06135,Similar to Slc35a3 UDP-N-acetylglucosamine transporter (Rattus norvegicus),Chitin Synthesis,,Y
+TCAL_02323,Similar to SLC35B4 UDP-xylose and UDP-N-acetylglucosamine transporter (Macaca fascicularis),Chitin Synthesis,,Y
+TCAL_00618,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_02724,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_02749,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_03515,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_13052,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_16871,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Trehalose Metabolism,,Y
+TCAL_08777,Similar to treC Trehalose-6-phosphate hydrolase (Escherichia coli (strain K12)),Trehalose Metabolism,,Y
+TCAL_03286,Similar to Trehalase (Apis mellifera),Trehalose Metabolism,3.2.1.28,Y
+TCAL_05240,Similar to Trehalase (Apis mellifera),Trehalose Metabolism,3.2.1.28,Y
+TCAL_07224,Similar to Trehalase (Apis mellifera),Trehalose Metabolism,3.2.1.28,Y
+TCAL_10817,Similar to Trehalase (Tenebrio molitor),Trehalose Metabolism,3.2.1.28,Y
+TCAL_10544,Similar to Tret1 Facilitated trehalose transporter Tret1 (Aedes aegypti),Trehalose Metabolism,,Y
+TCAL_08775,Similar to Tret1 Facilitated trehalose transporter Tret1 (Anopheles gambiae),Trehalose Metabolism,,Y
+TCAL_08629,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Trehalose Metabolism,,Y
+TCAL_12955,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Trehalose Metabolism,,Y
+TCAL_13460,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Trehalose Metabolism,,Y
+TCAL_01072,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Trehalose Metabolism,,Y
+TCAL_08350,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Trehalose Metabolism,,Y
+TCAL_09682,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Trehalose Metabolism,,Y
+TCAL_10367,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Trehalose Metabolism,,Y
+TCAL_01421,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_01686,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_02455,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_04049,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_04882,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_05190,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_05191,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_05947,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_06755,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_06963,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_07168,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_08417,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_09530,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_10835,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Trehalose Metabolism,,Y
+TCAL_07169,Similar to Tret1 Facilitated trehalose transporter Tret1 (Polypedilum vanderplanki),Trehalose Metabolism,,Y
+TCAL_09755,Similar to Tret1-1 Facilitated trehalose transporter Tret1-1 (Drosophila sechellia),Trehalose Metabolism,,Y
+TCAL_08782,Similar to Tret1-1 Facilitated trehalose transporter Tret1-1 (Drosophila simulans),Trehalose Metabolism,,Y
+TCAL_13686,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila sechellia),Trehalose Metabolism,,Y
+TCAL_01514,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Trehalose Metabolism,,Y
+TCAL_01675,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Trehalose Metabolism,,Y
+TCAL_09756,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Trehalose Metabolism,,Y
+TCAL_09147,Similar to UAP1 UDP-N-acetylhexosamine pyrophosphorylase (Homo sapiens),Chitin Synthesis,2.7.7.23; 2.7.7.83,Y
+TCAL_07840,Similar to UGP2 UTP--glucose-1-phosphate uridylyltransferase (Cricetulus griseus),Chitin Synthesis,2.7.7.9,Y
+TCAL_02960,Similar to UXS1 UDP-glucuronic acid decarboxylase 1 (Homo sapiens),Chitin Synthesis,4.1.1.35,Y
+TCAL_02088,Protein of unknown function (hemocytin isoform X2 [Coccinella septempunctata]),Cuticle Modification,,Y
+TCAL_06556,Similar to Snaclec coagulation factor IX/factor X-binding protein subunit B (Protobothrops flavoviridis),Cuticle Modification,,Y
+TCAL_06817,chondroitin proteoglycan-2-like,Cuticle Modification,,Y
+TCAL_09777,cuticle 19-like,Cuticle Modification,,Y
+TCAL_15551,cuticle 19-like,Cuticle Modification,,Y
+TCAL_16913,cuticle 19-like,Cuticle Modification,,Y
+TCAL_09258,cuticle 7-like,Cuticle Modification,,Y
+TCAL_12674,cuticle 7-like,Cuticle Modification,,Y
+TCAL_01551,cuticle -like,Cuticle Modification,,Y
+TCAL_09270,cuticle -like,Cuticle Modification,,Y
+TCAL_10620,cuticle -like,Cuticle Modification,,Y
+TCAL_00978,larval cuticle A2B-like,Cuticle Modification,,Y
+TCAL_14534,larval cuticle A2B-like,Cuticle Modification,,Y
+TCAL_01032,Similar to Ccp84Ab Cuticle protein (Anopheles gambiae),Cuticle Modification,,Y
+TCAL_02374,Similar to Ccp84Ab Cuticle protein (Anopheles gambiae),Cuticle Modification,,Y
+TCAL_02375,Similar to Ccp84Ab Cuticle protein (Anopheles gambiae),Cuticle Modification,,Y
+TCAL_09144,"Similar to Cuticle protein 18.6, isoform B (Locusta migratoria)",Cuticle Modification,,Y
+TCAL_11363,Similar to Cuticle protein 6 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_12573,Similar to Cuticle protein 6 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_14398,Similar to Cuticle protein 6 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_14399,Similar to Cuticle protein 7 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_16696,Similar to Cuticle protein 7 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_12953,Similar to Cuticle protein 8 (Blaberus craniifer),Cuticle Modification,,Y
+TCAL_02694,Similar to dpy-7 Cuticle collagen dpy-7 (Caenorhabditis elegans),Cuticle Modification,,Y
+TCAL_08778,Similar to Edg84A Pupal cuticle protein Edg-84A (Drosophila melanogaster),Cuticle Modification,,Y
+TCAL_16191,Similar to Edg84A Pupal cuticle protein Edg-84A (Drosophila melanogaster),Cuticle Modification,,Y
+TCAL_03370,Similar to Endocuticle structural glycoprotein ABD-4 (Locusta migratoria),Cuticle Modification,,Y
+TCAL_03707,Similar to Endocuticle structural glycoprotein SgAbd-2 (Schistocerca gregaria),Cuticle Modification,,Y
+TCAL_05798,Similar to Endocuticle structural glycoprotein SgAbd-2 (Schistocerca gregaria),Cuticle Modification,,Y
+TCAL_12804,Similar to lcc2 Laccase-2 (Botryotinia fuckeliana),Cuticle Modification,,Y
+TCAL_05787,Similar to LCP1 Larval cuticle protein 1 (Helicoverpa armigera),Cuticle Modification,,Y
+TCAL_14999,Similar to LCP1 Larval cuticle protein 1 (Helicoverpa armigera),Cuticle Modification,,Y
+TCAL_07449,Similar to LCP-14 Larval cuticle protein LCP-14 (Manduca sexta),Cuticle Modification,,Y
+TCAL_10279,Similar to LCP16/17 Larval cuticle protein 16/17 (Manduca sexta),Cuticle Modification,,Y
+TCAL_10283,Similar to LCP16/17 Larval cuticle protein 16/17 (Manduca sexta),Cuticle Modification,,Y
+TCAL_13588,Similar to LCP16/17 Larval cuticle protein 16/17 (Manduca sexta),Cuticle Modification,,Y
+TCAL_16290,Similar to LCP16/17 Larval cuticle protein 16/17 (Manduca sexta),Cuticle Modification,,Y
+TCAL_17239,Similar to LCP16/17 Larval cuticle protein 16/17 (Manduca sexta),Cuticle Modification,,Y
+TCAL_08007,Similar to LCP22 Larval cuticle protein LCP-22 (Bombyx mori),Cuticle Modification,,Y
+TCAL_11484,Similar to resilin Pro-resilin (Drosophila melanogaster),Cuticle Modification,,Y
+TCAL_17404,Similar to resilin Pro-resilin (Drosophila melanogaster),Cuticle Modification,,Y
+TCAL_17411,Similar to resilin Pro-resilin (Drosophila melanogaster),Cuticle Modification,,Y
+TCAL_13049,chondroitin proteoglycan-2-like,Cuticle Modification,,Y
+TCAL_04786,Similar to cpg-2 Chondroitin proteoglycan-2 (Caenorhabditis elegans),Cuticle Modification,,Y
+TCAL_16886,pro-resilin,Pro-Resilin,,Y
+TCAL_14429,pro-resilin isoform X2,Pro-Resilin,,Y
+TCAL_14843,pro-resilin isoform X2,Pro-Resilin,,Y
+TCAL_00286,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_02427,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_03107,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_03542,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_05454,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_06573,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_06807,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_07611,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_08148,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_08450,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_08832,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_08859,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_09040,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_09348,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_09349,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_09763,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_09765,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_10056,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_10121,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_10127,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_10390,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_10657,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11046,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11051,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11896,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11897,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11944,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_11945,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12032,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12217,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12219,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12408,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12409,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12441,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_12609,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_13293,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_13796,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_13797,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_14170,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_14380,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_15338,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_16056,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y
+TCAL_16370,Similar to resilin Pro-resilin (Drosophila melanogaster),Pro-Resilin,,Y

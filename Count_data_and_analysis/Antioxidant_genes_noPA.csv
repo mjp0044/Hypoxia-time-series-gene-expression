@@ -1,0 +1,49 @@
+SDv2.2,Description,Process,Enzyme code,Gene.name.marked.by.us
+TCAL_14896-PA,probable glutathione S-transferase 9,GSH-transferase,2.5.1.18,Y
+TCAL_02199-PA,Similar to Cat Catalase (Drosophila melanogaster),Catalase,1.11.1.6,Y
+TCAL_08403-PA,Similar to CCS Copper chaperone for superoxide dismutase (Sus scrofa),Superoxide Dismutase,1.15.1.1,Y
+TCAL_09814-PA,Similar to CG10428 Glutathione S-transferase C-terminal domain-containing protein homolog (Drosophila melanogaster),GSH-transferase,,Y
+TCAL_06799-PA,Similar to CHAC2 Putative glutathione-specific gamma-glutamylcyclotransferase 2 (Bos taurus),GSH-hydrolase,4.3.2.7,Y
+TCAL_10266-PA,"Similar to DHAR1 Glutathione S-transferase DHAR1, mitochondrial (Arabidopsis thaliana)",GSH-transferase,2.5.1.18,Y
+TCAL_10680-PA,Similar to frmA S-(hydroxymethyl)glutathione dehydrogenase (Synechocystis sp. (strain PCC 6803 / Kazusa)),GSH-dehydrogenase,1.1.1.284,Y
+TCAL_02843-PA,Similar to GGT1 Glutathione hydrolase 1 proenzyme (Homo sapiens),GSH-hydrolase,3.4.19.13,Y
+TCAL_12699-PA,Similar to GGT1 Glutathione hydrolase 1 proenzyme (Homo sapiens),GSH-hydrolase,3.4.19.13,Y
+TCAL_10339-PA,Similar to Ggt1 Glutathione hydrolase 1 proenzyme (Rattus norvegicus),GSH-hydrolase,3.4.19.13,Y
+TCAL_07601-PA,Similar to Ggt7 Glutathione hydrolase 7 (Mus musculus),GSH-hydrolase,3.4.19.13,Y
+TCAL_12508-PA,Similar to Glutathione S-transferase (Musca domestica),GSH-transferase,2.5.1.18,Y
+TCAL_03373-PA,Similar to Glutathione S-transferase (Nototodarus sloanii),GSH-transferase,2.5.1.18,Y
+TCAL_04934-PA,Similar to GPx Glutathione peroxidase (Procambarus clarkii),GSH-peroxidase,1.11.1.12,Y
+TCAL_04934-PA,Similar to GPx Glutathione peroxidase (Procambarus clarkii),GSH-peroxidase,1.11.1.12,Y
+TCAL_11232-PA,Similar to GPX2 Glutathione peroxidase 2 (Pongo pygmaeus),GSH-peroxidase,1.11.1.12,Y
+TCAL_11232-PA,Similar to GPX2 Glutathione peroxidase 2 (Pongo pygmaeus),GSH-peroxidase,1.11.1.12,Y
+TCAL_05654-PA,Similar to GPXle-1 Probable phospholipid hydroperoxide glutathione peroxidase (Solanum lycopersicum),GSH-peroxidase,1.11.1.12,Y
+TCAL_05654-PA,Similar to GPXle-1 Probable phospholipid hydroperoxide glutathione peroxidase (Solanum lycopersicum),GSH-peroxidase,1.11.1.12,Y
+TCAL_03482-PA,"Similar to Gsr Glutathione reductase, mitochondrial (Mus musculus)",GSH-reductase,1.8.1.7,Y
+TCAL_03482-PA,"Similar to Gsr Glutathione reductase, mitochondrial (Mus musculus)",GSH-reductase,1.8.1.7,Y
+TCAL_05110-PA,Similar to gss Glutathione synthetase (Xenopus laevis),GSH-synthetase,6.3.2.3,Y
+TCAL_08357-PA,Similar to GST1 Glutathione S-transferase 1 (Ascaris suum),GSH-transferase,2.5.1.18,Y
+TCAL_07767-PA,Similar to Gst1 Glutathione S-transferase 1 (Musca domestica),GSH-transferase,2.5.1.18,Y
+TCAL_10068-PA,Similar to GST1 Glutathione S-transferase 1-1 (Lucilia cuprina),GSH-transferase,2.5.1.18,Y
+TCAL_08165-PA,Similar to gst-6 Probable glutathione S-transferase 6 (Caenorhabditis elegans),GSH-transferase,2.5.1.18,Y
+TCAL_16153-PA,Similar to gst-6 Probable glutathione S-transferase 6 (Caenorhabditis elegans),GSH-transferase,2.5.1.18,Y
+TCAL_07652-PA,"Similar to GstD1 Glutathione S-transferase 1, isoform C (Anopheles gambiae)",GSH-transferase,2.5.1.18,Y
+TCAL_02700-PA,"Similar to GstD1 Glutathione S-transferase 1, isoform D (Anopheles gambiae)",GSH-transferase,2.5.1.18,Y
+TCAL_07653-PA,Similar to GstD1 Glutathione S-transferase D1 (Drosophila melanogaster),GSH-transferase,2.5.1.18,Y
+TCAL_02071-PA,Similar to GstD6 Glutathione S-transferase D6 (Drosophila melanogaster),GSH-transferase,2.5.1.18,Y
+TCAL_12305-PA,Similar to Gstk1 Glutathione S-transferase kappa 1 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_06079-PA,Similar to GSTM1 Glutathione S-transferase Mu 1 (Bos taurus),GSH-transferase,2.5.1.18,Y
+TCAL_00741-PA,Similar to GSTM1 Glutathione S-transferase Mu 1 (Macaca fascicularis),GSH-transferase,2.5.1.18,Y
+TCAL_11667-PA,Similar to GSTO1 Glutathione S-transferase omega-1 (Sus scrofa),GSH-transferase,2.5.1.18,Y
+TCAL_02978-PA,Similar to GSTT1 Glutathione S-transferase theta-1 (Bos taurus),GSH-transferase,2.5.1.18,Y
+TCAL_05768-PA,Similar to Mgst1 Microsomal glutathione S-transferase 1 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_05769-PA,Similar to Mgst1 Microsomal glutathione S-transferase 1 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_16576-PA,Similar to Mgst1 Microsomal glutathione S-transferase 1 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_02915-PA,Similar to Mgst3 Microsomal glutathione S-transferase 3 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_03517-PA,Similar to Mgst3 Microsomal glutathione S-transferase 3 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_14692-PA,Similar to Mgst3 Microsomal glutathione S-transferase 3 (Mus musculus),GSH-transferase,2.5.1.18,Y
+TCAL_03499-PA,Similar to Sod Superoxide dismutase [Cu-Zn] (Drosophila willistoni),Superoxide Dismutase,1.15.1.1,Y
+TCAL_04512-PA,Similar to sod1 Superoxide dismutase [Cu-Zn] (Danio rerio),Superoxide Dismutase,1.15.1.1,Y
+TCAL_03987-PA,Similar to Sod1 Superoxide dismutase [Cu-Zn] (Mus musculus),Superoxide Dismutase,1.15.1.1,Y
+TCAL_03501-PA,"Similar to Sod2 Superoxide dismutase [Mn], mitochondrial (Rattus norvegicus)",Superoxide Dismutase,1.15.1.1,Y
+TCAL_05695-PA,Similar to sodE Superoxide dismutase [Cu-Zn] 5 (Dictyostelium discoideum),Superoxide Dismutase,1.15.1.1,Y
+TCAL_17009-PA,"Similar to Superoxide dismutase [Mn], mitochondrial (Charybdis feriata)",Superoxide Dismutase,1.15.1.1,Y

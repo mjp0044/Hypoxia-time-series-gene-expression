@@ -1,0 +1,23 @@
+SeqName,Description,Process,Identifier,Enzyme Code,Gene.name.marked.by.us
+TCAL_11246,"Similar to dib Cytochrome P450 302a1, mitochondrial (Drosophila melanogaster)",putative metabolism,Weaver,1.14.99,Y
+TCAL_01294,"Similar to BCO1 Beta,beta-carotene 15,15'-dioxygenase (Gallus gallus)",cleavage,Powers,1.13.11.63,Y
+TCAL_11676,"Similar to Bco1 Beta,beta-carotene 15,15'-dioxygenase (Mus musculus)",cleavage,Powers,1.13.11.63,Y
+TCAL_13295,"Similar to Bco2 Beta,beta-carotene 9',10'-oxygenase (Mus musculus)",cleavage,Powers,1.13.11.71 ,Y
+TCAL_04752,Similar to CD63 CD63 antigen (Oryctolagus cuniculus),storage,Powers,,Y
+TCAL_02439,Similar to CD63 CD63 antigen (Bos taurus),storage,Powers,,Y
+TCAL_09634,Similar to CD63 CD63 antigen (Bos taurus),storage,Powers,,Y
+TCAL_10934,Similar to CYP15A1 Methyl farnesoate epoxidase (Diploptera punctata),putative metabolism,Weaver,1.14.14.127,Y
+TCAL_10020,Similar to Cyp18a1 Cytochrome P450 18a1 (Drosophila melanogaster),putative metabolism,Weaver,1.14,Y
+TCAL_02023,Similar to Cyp2j3 Cytochrome P450 2J3 (Rattus norvegicus),putative metabolism,Weaver,1.14.14.1,Y
+TCAL_08563,"Similar to Cyp301a1 Probable cytochrome P450 301a1, mitochondrial (Drosophila melanogaster)",putative metabolism,Weaver,1.14,Y
+TCAL_05144,Similar to CYP3A24 Cytochrome P450 3A24 (Ovis aries),putative metabolism,Weaver,1.14.14.1,Y
+TCAL_16021,Similar to CYP3A29 Cytochrome P450 3A29 (Sus scrofa),putative metabolism,Weaver,1.14.14.1,Y
+TCAL_10656,Similar to Cyp6a14 Probable cytochrome P450 6a14 (Drosophila melanogaster),putative metabolism,Weaver,1.14,Y
+TCAL_01682,Similar to ninaB Carotenoid isomerooxygenase (Galleria mellonella),cleavage,Powers,1.13.11.65,Y
+TCAL_04144,Similar to ninaB Carotenoid isomerooxygenase (Galleria mellonella),cleavage,Powers,1.13.11.65,Y
+TCAL_12868,Similar to SCARB1 Scavenger receptor class B member 1 (Cricetulus griseus),transport,Powers,,Y
+TCAL_08665,Similar to Scarb1 Scavenger receptor class B member 1 (Mus musculus),transport,Powers,,Y
+TCAL_01923,Similar to SCARB2 Lysosome membrane protein 2 (Homo sapiens),transport,Powers,,Y
+TCAL_03365,Similar to SCARB2 Lysosome membrane protein 2 (Homo sapiens),transport,Powers,,Y
+TCAL_02655,Similar to Scarb2 Lysosome membrane protein 2 (Mus musculus),transport,Powers,,Y
+TCAL_03332,Similar to shroom2 Protein Shroom2 (Xenopus tropicalis),storage,Powers,,Y

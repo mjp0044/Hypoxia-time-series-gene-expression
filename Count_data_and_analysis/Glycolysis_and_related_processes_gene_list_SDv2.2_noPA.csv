@@ -1,0 +1,273 @@
+Gene,Description,Process,Enzyme.code,Gene.Yme.marked.by.us.,Notes
+TCAL_00083,Similar to AACS Acetoacetyl-CoA synthetase (Gallus gallus),Glycolysis,6.2.1.16; 2.3.1.194,Y,NA
+TCAL_00083,Similar to AACS Acetoacetyl-CoA synthetase (Gallus gallus),Pyruvate,6.2.1.16; 2.3.1.194,Y,NA
+TCAL_00116,Similar to ldhA D-lactate dehydrogenase (Escherichia coli (strain K12)),Pyruvate,1.1.1.28,Y,
+TCAL_00155,"Similar to ACAT2 Acetyl-CoA acetyltransferase, cytosolic (Homo sapiens)",Pyruvate,2.3.1.9,Y,
+TCAL_00191,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Glycolysis,2.7.1.1,,Did not save sequence to blast database
+TCAL_00191,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Starch_Sucrose,2.7.1.1,Y,NA
+TCAL_00191,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Fructose_Mannose,2.7.1.1,Y,
+TCAL_00236,"Similar to l(1)G0156 Probable isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial (Drosophila melanogaster)",TCA,1.1.1.42; 1.1.1.41,Y,NA
+TCAL_00284,Similar to Amy-p Alpha-amylase A (Drosophila melanogaster),Starch_Sucrose,3.2.1.1,Y,NA
+TCAL_00555,Similar to Pgk Phosphoglycerate kinase (Drosophila melanogaster),Glycolysis,2.7.2.3,N,
+TCAL_00618,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_00715,Similar to Trim23 E3 ubiquitin-protein ligase TRIM23 (Mus musculus),Fructose_Mannose,2.7.1.28,N,
+TCAL_00722,Similar to PGM1 Phosphoglucomutase-1 (Bos taurus),Glycolysis,5.4.2.2,Y,Did not save sequence to blast database
+TCAL_00722,Similar to PGM1 Phosphoglucomutase-1 (Bos taurus),Pentose_Phosphate,5.4.2.2,Y,
+TCAL_00774,"Similar to DLST Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial (Bos taurus)",TCA,2.3.1.61,Y,
+TCAL_00774,"Similar to DLST Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial (Bos taurus)",Glycolysis,2.3.1.61,Y,NA
+TCAL_00774,"Similar to DLST Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial (Bos taurus)",Pyruvate,2.3.1.61,Y,NA
+TCAL_00781,"Similar to IDH3G Isocitrate dehydrogenase [NAD] subunit gamma, mitochondrial (Bos taurus)",TCA,1.1.1.42; 1.1.1.41,Y,NA
+TCAL_00840,Similar to AGL Glycogen debranching enzyme (Homo sapiens),Starch_Sucrose,2.4.1.1; 3.2.1.33,Y,
+TCAL_00923,Similar to AcCoAS Acetyl-coenzyme A synthetase (Drosophila melanogaster),Glycolysis,6.2.1.1,Y,
+TCAL_00923,Similar to AcCoAS Acetyl-coenzyme A synthetase (Drosophila melanogaster),Pyruvate,6.2.1.1,Y,
+TCAL_00924,Similar to GANAB Neutral alpha-glucosidase AB (Sus scrofa),Starch_Sucrose,3.2.1.20,Y,NA
+TCAL_01021,Similar to DERA Deoxyribose-phosphate aldolase (Homo sapiens),Pentose_Phosphate,4.1.2.4,Y,NA
+TCAL_01045,Similar to Adpgk ADP-dependent glucokinase (Mus musculus),Glycolysis,2.7.1.147,N,Did not save sequence to blast database
+TCAL_01072,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Starch_Sucrose,,Y,
+TCAL_01189,"Similar to FH Fumarate hydratase, mitochondrial (Macaca fascicularis)",TCA,4.2.1.2,Y,
+TCAL_01189,"Similar to FH Fumarate hydratase, mitochondrial (Macaca fascicularis)",Pyruvate,4.2.1.2,Y,
+TCAL_01219,Similar to ACO1 Cytoplasmic aconitate hydratase (Homo sapiens),TCA,4.2.1.3,Y,NA
+TCAL_01324,Similar to MPI Mannose-6-phosphate isomerase (Macaca fascicularis),Fructose_Mannose,5.3.1.8,Y,
+TCAL_01328,"Similar to 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase (Lithobates catesbeiana)",Fructose_Mannose,2.7.1.105; 3.1.3.46,Y,
+TCAL_01383,Similar to rgn Regucalcin (Xenopus laevis),Pentose_Phosphate,3.1.1.17,Y,NA
+TCAL_01384,Similar to rgn Regucalcin (Xenopus laevis),Pentose_Phosphate,3.1.1.17,Y,
+TCAL_01421,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_01514,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Starch_Sucrose,,Y,
+TCAL_01675,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Starch_Sucrose,,Y,
+TCAL_01686,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_01701,Similar to ACAC Acetyl-CoA carboxylase (Gallus gallus),Pyruvate,6.4.1.2; 6.3.4.14; 2.1.3.15,Y,
+TCAL_01701,Similar to ACAC Acetyl-CoA carboxylase (Gallus gallus),TCA,6.4.1.2; 6.3.4.14; 2.1.3.15,Y,NA
+TCAL_01818,Similar to ACO1 Cytoplasmic aconitate hydratase (Homo sapiens),TCA,4.2.1.3,Y,NA
+TCAL_01843,Similar to CG10688 Probable phosphomannomutase (Drosophila melanogaster),Fructose_Mannose,5.4.2.8,Y,
+TCAL_01919,Similar to MINPP1 Multiple inositol polyphosphate phosphatase 1 (Gallus gallus),Glycolysis,3.1.3.80; 3.1.3.62,Y,
+TCAL_02076,"Similar to LDHD Probable D-lactate dehydrogenase, mitochondrial (Homo sapiens)",Pyruvate,1.1.2.4,N,
+TCAL_02178,"Similar to cbhA Probable 1,4-beta-D-glucan cellobiohydrolase A (Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1))",Starch_Sucrose,3.2.1.91,Y,NA
+TCAL_02203,Similar to ME1 NADP-dependent malic enzyme (Anas platyrhynchos),Pyruvate,1.1.1.40,Y,
+TCAL_02206,Similar to PPP6R2 Serine/threonine-protein phosphatase 6 regulatory subunit 2 (Homo sapiens),Starch_Sucrose,NA,Y,NA
+TCAL_02249,Similar to Prps1 Ribose-phosphate pyrophosphokinase 1 (Rattus norvegicus),Pentose_Phosphate,2.7.6.1,Y,
+TCAL_02308,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Glycolysis,2.7.1.1,Y,Did not save sequence to blast database
+TCAL_02308,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Starch_Sucrose,2.7.1.1,Y,
+TCAL_02308,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Fructose_Mannose,2.7.1.1,Y,
+TCAL_02455,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_02501,Similar to Gaa Lysosomal alpha-glucosidase (Mus musculus),Starch_Sucrose,3.2.1.20,Y,NA
+TCAL_02648,Similar to G6PD Glucose-6-phosphate 1-dehydrogenase (Homo sapiens),Pentose_Phosphate,3.1.3.9,Y,NA
+TCAL_02724,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_02749,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_02765,"Similar to Aldh2 Aldehyde dehydrogenase, mitochondrial (Rattus norvegicus)",Glycolysis,1.2.1.3,Y,
+TCAL_02765,"Similar to Aldh2 Aldehyde dehydrogenase, mitochondrial (Rattus norvegicus)",Pyruvate,1.2.1.3,Y,
+TCAL_02766,Similar to ENOSF1 Mitochondrial enolase superfamily member 1 (Homo sapiens),Fructose_Mannose,4.2.1.68,Y,
+TCAL_03277,Similar to PyK Pyruvate kinase (Drosophila melanogaster),Glycolysis,2.7.1.40,Y,
+TCAL_03277,Similar to PyK Pyruvate kinase (Drosophila melanogaster),Pyruvate,2.7.1.40,Y,
+TCAL_03286,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_03286,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_03382,"Similar to tpsA Alpha,alpha-trehalose-phosphate synthase [UDP-forming] A (Dictyostelium discoideum)",Starch_Sucrose,2.4.1.15,Y,NA
+TCAL_03515,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_03643,Similar to Pepck Phosphoenolpyruvate carboxykinase [GTP] (Drosophila melanogaster),Glycolysis,4.1.1.32,Y,
+TCAL_03643,Similar to Pepck Phosphoenolpyruvate carboxykinase [GTP] (Drosophila melanogaster),TCA,4.1.1.32,Y,
+TCAL_03643,Similar to Pepck Phosphoenolpyruvate carboxykinase [GTP] (Drosophila melanogaster),Pyruvate,4.1.1.32,Y,
+TCAL_03648,"Similar to 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase (Lithobates catesbeiana)",Fructose_Mannose,2.7.1.105; 3.1.3.46,Y,
+TCAL_03668,"Similar to PGD 6-phosphogluconate dehydrogenase, decarboxylating (Homo sapiens)",Pentose_Phosphate,1.1.1.44; 1.1.1.343,Y,
+TCAL_03688,Similar to gmppaa Mannose-1-phosphate guanyltransferase alpha-A (Danio rerio),Fructose_Mannose,2.7.7.13,Y,
+TCAL_03862,"Similar to T05H10.6 Probable pyruvate dehydrogenase E1 component subunit alpha, mitochondrial (Caenorhabditis elegans)",Glycolysis,1.2.4.1,Y,
+TCAL_03862,"Similar to T05H10.6 Probable pyruvate dehydrogenase E1 component subunit alpha, mitochondrial (Caenorhabditis elegans)",TCA,1.2.4.1,Y,
+TCAL_03862,"Similar to T05H10.6 Probable pyruvate dehydrogenase E1 component subunit alpha, mitochondrial (Caenorhabditis elegans)",Pyruvate,1.2.4.1,Y,
+TCAL_03938,Similar to eltD Erythritol/L-threitol dehydrogenase (Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)),Fructose_Mannose,1.1.1.14,Y,
+TCAL_03943,Similar to G6pdx Glucose-6-phosphate 1-dehydrogenase X (Mus musculus),Pentose_Phosphate,3.1.3.9,Y,NA
+TCAL_03944,Similar to Zw Glucose-6-phosphate 1-dehydrogenase (Drosophila melanogaster),Pentose_Phosphate,1.1.1.49; 1.1.1.363,Y,
+TCAL_03948,Similar to enol-1 Enolase (Caenorhabditis elegans),Glycolysis,4.2.1.11,Y,
+TCAL_03960,Similar to ALDH16A1 Aldehyde dehydrogenase family 16 member A1 (Bos taurus),Glycolysis,1.2.1.3,Y,NA
+TCAL_03960,Similar to ALDH16A1 Aldehyde dehydrogenase family 16 member A1 (Bos taurus),Pyruvate,1.2.1.3,Y,NA
+TCAL_04049,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_04053,Similar to YMR099C Glucose-6-phosphate 1-epimerase (Saccharomyces cerevisiae (strain ATCC 204508 / S288c)),Glycolysis,5.1.3.15,Y,NA
+TCAL_04099,Similar to G6PC Glucose-6-phosphatase (Canis lupus familiaris),Glycolysis,3.1.3.9,N,Did not save sequence to blast database
+TCAL_04099,Similar to G6PC Glucose-6-phosphatase (Canis lupus familiaris),Starch_Sucrose,3.1.3.9,N,
+TCAL_04118,Similar to RPE Ribulose-phosphate 3-epimerase (Homo sapiens),Pentose_Phosphate,5.1.3.1,Y,
+TCAL_04195,"Similar to Dbt Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (Mus musculus)",Glycolysis,2.3.1.168,Y,NA
+TCAL_04195,"Similar to Dbt Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (Mus musculus)",Pyruvate,2.3.1.168,Y,NA
+TCAL_04195,"Similar to Dbt Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (Mus musculus)",TCA,2.3.1.168,Y,NA
+TCAL_04202,Similar to FUK L-fucose kinase (Homo sapiens),Fructose_Mannose,2.7.1.52,Y,NA
+TCAL_04403,"Similar to Gld Glucose dehydrogenase [FAD, quinone] (Drosophila melanogaster)",Pentose_Phosphate,1.1.5.9,Y,NA
+TCAL_04464,"Similar to FBP1 Fructose-1,6-bisphosphatase 1 (Bos taurus)",Glycolysis,3.1.3.11,Y,Did not save sequence to blast database
+TCAL_04464,"Similar to FBP1 Fructose-1,6-bisphosphatase 1 (Bos taurus)",Pentose_Phosphate,3.1.3.11,Y,
+TCAL_04464,"Similar to FBP1 Fructose-1,6-bisphosphatase 1 (Bos taurus)",Fructose_Mannose,3.1.3.11,Y,
+TCAL_04840,Similar to ALDH7A1 Alpha-aminoadipic semialdehyde dehydrogenase (Bos taurus),Glycolysis,1.2.1.31,Y,NA
+TCAL_04840,Similar to ALDH7A1 Alpha-aminoadipic semialdehyde dehydrogenase (Bos taurus),Pyruvate,1.2.1.31,Y,NA
+TCAL_04847,Similar to enpp6 Ectonucleotide pyrophosphatase/phosphodiesterase family member 6 (Danio rerio),Starch_Sucrose,3.1.4.38,Y,NA
+TCAL_04882,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_04913,"Similar to dlat-1 Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (Caenorhabditis elegans)",Glycolysis,2.3.1.12,Y,NA
+TCAL_04913,"Similar to dlat-1 Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (Caenorhabditis elegans)",Pyruvate,2.3.1.12,Y,NA
+TCAL_04913,"Similar to dlat-1 Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (Caenorhabditis elegans)",TCA,2.3.1.12,Y,NA
+TCAL_05040,"Similar to ACSS3 Acyl-CoA synthetase short-chain family member 3, mitochondrial (Homo sapiens)",Glycolysis,6.2.1.1,Y,NA
+TCAL_05040,"Similar to ACSS3 Acyl-CoA synthetase short-chain family member 3, mitochondrial (Homo sapiens)",Pyruvate,6.2.1.1,Y,NA
+TCAL_05074,"Similar to Aldh5a1 Succinate-semialdehyde dehydrogenase, mitochondrial (Mus musculus)",Glycolysis,1.2.1.24,Y,NA
+TCAL_05074,"Similar to Aldh5a1 Succinate-semialdehyde dehydrogenase, mitochondrial (Mus musculus)",Pyruvate,1.2.1.24,Y,NA
+TCAL_05190,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_05191,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_05240,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_05240,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_05265,Similar to ninaG Neither inactivation nor afterpotential protein G (Drosophila melanogaster),Pentose_Phosphate,NA,Y,NA
+TCAL_05280,"Similar to exgA Probable glucan 1,3-beta-glucosidase A (Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100))",Starch_Sucrose,3.2.1.58,Y,NA
+TCAL_05292,"Similar to DHTKD1 Probable 2-oxoglutarate dehydrogenase E1 component DHKTD1, mitochondrial (Pongo abelii)",TCA,1.2.4,Y,NA
+TCAL_05307,"Similar to Aldh6a1 Methylmalonate-semialdehyde dehydrogenase [acylating], mitochondrial (Mus musculus)",Glycolysis,1.2.1.27,Y,NA
+TCAL_05307,"Similar to Aldh6a1 Methylmalonate-semialdehyde dehydrogenase [acylating], mitochondrial (Mus musculus)",Pyruvate,1.2.1.27,Y,NA
+TCAL_05947,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_05997,"Similar to AAEL011789 Probable citrate synthase 2, mitochondrial (Aedes aegypti)",TCA,2.3.3.1,Y,
+TCAL_06332,Similar to TALDO1 Transaldolase (Homo sapiens),Pentose_Phosphate,2.2.1.2,Y,
+TCAL_06342,"Similar to Pfkfb4 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 4 (Mus musculus)",Fructose_Mannose,2.7.1.11,Y,
+TCAL_06468,Similar to gmppb-a Mannose-1-phosphate guanyltransferase beta-A (Xenopus laevis),Fructose_Mannose,2.7.7.13,Y,
+TCAL_06470,Similar to HKDC1 Putative hexokinase HKDC1 (Homo sapiens),Glycolysis,2.7.1.1,Y,NA
+TCAL_06470,Similar to HKDC1 Putative hexokinase HKDC1 (Homo sapiens),Fructose_Mannose,2.7.1.1,Y,NA
+TCAL_06470,Similar to HKDC1 Putative hexokinase HKDC1 (Homo sapiens),Starch_Sucrose,2.7.1.1,Y,NA
+TCAL_06559,Similar to Tpi Triosephosphate isomerase (Bombyx mori),Glycolysis,5.3.1.1,Y,
+TCAL_06559,Similar to Tpi Triosephosphate isomerase (Bombyx mori),Fructose_Mannose,5.3.1.1,Y,
+TCAL_06576,"Similar to LTA3 Dihydrolipoyllysine-residue acetyltransferase component 1 of pyruvate dehydrogenase complex, mitochondrial (Arabidopsis thaliana)",Glycolysis,2.3.1.12,N,
+TCAL_06576,"Similar to LTA3 Dihydrolipoyllysine-residue acetyltransferase component 1 of pyruvate dehydrogenase complex, mitochondrial (Arabidopsis thaliana)",TCA,2.3.1.12,N,
+TCAL_06576,"Similar to LTA3 Dihydrolipoyllysine-residue acetyltransferase component 1 of pyruvate dehydrogenase complex, mitochondrial (Arabidopsis thaliana)",Pyruvate,2.3.1.12,N,
+TCAL_06581,Similar to tpsp Bifunctional trehalose-6-phosphate synthase/phosphatase (Thermoproteus tenax (strain ATCC 35583 / DSM 2078 / JCM 9277 / NBRC 100435 / Kra 1)),Starch_Sucrose,2.4.1.15; 3.1.3.12,Y,
+TCAL_06755,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_06953,"Similar to ALDH3A1 Aldehyde dehydrogenase, dimeric NADP-preferring (Homo sapiens)",Glycolysis,1.2.1.5,Y,
+TCAL_06953,"Similar to ALDH3A1 Aldehyde dehydrogenase, dimeric NADP-preferring (Homo sapiens)",Pyruvate,1.2.1.5,Y,NA
+TCAL_06963,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_06966,Similar to akr1a1a Alcohol dehydrogenase [NADP(+)] A (Danio rerio),Glycolysis,1.1.1.2; 1.1.1.372; 1.1.1.54 ,Y,
+TCAL_06966,Similar to akr1a1a Alcohol dehydrogenase [NADP(+)] A (Danio rerio),Pyruvate,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,
+TCAL_06985,Similar to Shpk Sedoheptulokinase (Mus musculus),Pentose_Phosphate,2.7.1.14,Y,
+TCAL_07032,"Similar to OGDH 2-oxoglutarate dehydrogenase, mitochondrial (Homo sapiens)",TCA,1.2.4.2,Y,
+TCAL_07120,"Similar to MGAM Maltase-glucoamylase, intestinal (Homo sapiens)",Starch_Sucrose,3.2.1.20,Y,
+TCAL_07166,Similar to AKR1B10 Aldo-keto reductase family 1 member B10 (Homo sapiens),Glycolysis,1.1.1.300; 1.1.1.54,Y,NA
+TCAL_07166,Similar to AKR1B10 Aldo-keto reductase family 1 member B10 (Homo sapiens),Pyruvate,1.1.1.300; 1.1.1.54,Y,NA
+TCAL_07166,Similar to AKR1B10 Aldo-keto reductase family 1 member B10 (Homo sapiens),Fructose_Mannose,1.1.1.300; 1.1.1.54,Y,NA
+TCAL_07168,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_07169,Similar to Tret1 Facilitated trehalose transporter Tret1 (Polypedilum vanderplanki),Starch_Sucrose,,Y,
+TCAL_07224,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_07224,Similar to Trehalase (Apis mellifera),Starch_Sucrose,3.2.1.28,Y,
+TCAL_07243,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Glycolysis,2.7.1.1,Y,Did not save sequence to blast database
+TCAL_07243,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Starch_Sucrose,2.7.1.1,Y,NA
+TCAL_07243,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Fructose_Mannose,2.7.1.1,Y,
+TCAL_07255,"Similar to Aco2 Aconitate hydratase, mitochondrial (Mus musculus)",TCA,4.2.1.3,Y,
+TCAL_07389,Similar to IDH1 Isocitrate dehydrogenase [NADP] cytoplasmic (Microtus mexicanus),TCA,1.1.1.42,Y,
+TCAL_07429,Similar to Akr1a1 Alcohol dehydrogenase [NADP(+)] (Mus musculus),Glycolysis,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_07429,Similar to Akr1a1 Alcohol dehydrogenase [NADP(+)] (Mus musculus),Pyruvate,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_07559,Similar to Acly ATP-citrate synthase (Mus musculus),TCA,2.3.3.8,Y,
+TCAL_07604,Similar to PRPS1L1 Ribose-phosphate pyrophosphokinase 3 (Homo sapiens),Pentose_Phosphate,2.7.6.1,Y,NA
+TCAL_07824,"Similar to IDH3B Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial (Bos taurus)",TCA,1.1.1.41,Y,
+TCAL_07840,Similar to UGP2 UTP--glucose-1-phosphate uridylyltransferase (Cricetulus griseus),Starch_Sucrose,2.7.7.9,Y,
+TCAL_08021,"Similar to Sucla2 Succinate--CoA ligase [ADP-forming] subunit beta, mitochondrial (Mus musculus)",TCA,6.2.1.4; 6.2.1.5,Y,
+TCAL_08193,Similar to Pfk ATP-dependent 6-phosphofructokinase (Drosophila melanogaster),Glycolysis,2.7.1.11,Y,Did not save sequence to blast database
+TCAL_08193,Similar to Pfk ATP-dependent 6-phosphofructokinase (Drosophila melanogaster),Pentose_Phosphate,2.7.1.11,Y,
+TCAL_08193,Similar to Pfk ATP-dependent 6-phosphofructokinase (Drosophila melanogaster),Fructose_Mannose,2.7.1.11,Y,
+TCAL_08206,Similar to PGM2 Phosphoglucomutase-2 (Homo sapiens),Pentose_Phosphate,5.4.2.2; 5.4.2.7,Y,
+TCAL_08206,Similar to PGM2 Phosphoglucomutase-2 (Homo sapiens),Starch_Sucrose,5.4.2.2; 5.4.2.7,Y,NA
+TCAL_08296,Similar to ger-1 GDP-L-fucose synthase (Caenorhabditis elegans),Fructose_Mannose,1.1.1.271,N,
+TCAL_08350,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Starch_Sucrose,,Y,
+TCAL_08378,"Similar to hagh Hydroxyacylglutathione hydrolase, mitochondrial (Danio rerio)",Pyruvate,3.1.2.6,Y,
+TCAL_08394,Similar to Amy4N Alpha-amylase 4N (Drosophila ananassae),Starch_Sucrose,3.2.1.1,Y,
+TCAL_08417,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_08497,Similar to ZK1290.5 Uncharacterized oxidoreductase ZK1290.5 (Caenorhabditis elegans),Glycolysis,NA,Y,NA
+TCAL_08497,Similar to ZK1290.5 Uncharacterized oxidoreductase ZK1290.5 (Caenorhabditis elegans),Pyruvate,NA,Y,NA
+TCAL_08497,Similar to ZK1290.5 Uncharacterized oxidoreductase ZK1290.5 (Caenorhabditis elegans),Fructose_Mannose,NA,Y,NA
+TCAL_08561,Similar to Amy4N Alpha-amylase 4N (Drosophila ananassae),Starch_Sucrose,3.2.1.1,Y,
+TCAL_08594,"Similar to HADHB Trifunctional enzyme subunit beta, mitochondrial (Bos taurus)",Pyruvate,2.3.1.155; 2.3.1.16,Y,NA
+TCAL_08613,"Similar to FBP1 Fructose-1,6-bisphosphatase 1 (Sus scrofa)",Pentose_Phosphate,3.1.3.11,Y,NA
+TCAL_08619,"Similar to ACAA2 3-ketoacyl-CoA thiolase, mitochondrial (Homo sapiens)",Pyruvate,2.3.1.16,Y,NA
+TCAL_08629,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Starch_Sucrose,,Y,
+TCAL_08775,Similar to Tret1 Facilitated trehalose transporter Tret1 (Anopheles gambiae),Starch_Sucrose,,Y,
+TCAL_08777,Similar to treC Trehalose-6-phosphate hydrolase (Escherichia coli (strain K12)),Starch_Sucrose,,Y,
+TCAL_08782,Similar to Tret1-1 Facilitated trehalose transporter Tret1-1 (Drosophila simulans),Starch_Sucrose,,Y,
+TCAL_09175,"Similar to exgA Probable glucan 1,3-beta-glucosidase A (Neosartorya fumigata (strain CEA10 / CBS 144.89 / FGSC A1163))",Starch_Sucrose,3.2.1.58,Y,
+TCAL_09176,Similar to GlyS Glycogen [starch] synthase (Drosophila melanogaster),Starch_Sucrose,2.4.1.11,Y,
+TCAL_09435,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Glycolysis,2.7.1.1,Y,Did not save sequence to blast database
+TCAL_09435,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Starch_Sucrose,2.7.1.1,Y,NA
+TCAL_09435,Similar to Hex-t2 Hexokinase type 2 (Drosophila melanogaster),Fructose_Mannose,2.7.1.1,Y,
+TCAL_09530,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_09673,Similar to PGAM2 Phosphoglycerate mutase 2 (Homo sapiens),Glycolysis,5.4.2.11,Y,NA
+TCAL_09682,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Starch_Sucrose,,Y,
+TCAL_09755,Similar to Tret1-1 Facilitated trehalose transporter Tret1-1 (Drosophila sechellia),Starch_Sucrose,,Y,
+TCAL_09756,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila simulans),Starch_Sucrose,,Y,
+TCAL_09817,Similar to Prpsap1 Phosphoribosyl pyrophosphate synthase-associated protein 1 (Mus musculus),Pentose_Phosphate,NA,Y,NA
+TCAL_09918,Similar to GRHPR Glyoxylate reductase/hydroxypyruvate reductase (Homo sapiens),Pyruvate,1.1.1.79; 1.1.1.81,Y,
+TCAL_09981,"Similar to PC Pyruvate carboxylase, mitochondrial (Homo sapiens)",TCA,6.4.1.1,Y,
+TCAL_09981,"Similar to PC Pyruvate carboxylase, mitochondrial (Homo sapiens)",Pyruvate,6.4.1.1,Y,
+TCAL_10018,"Similar to Gld Glucose dehydrogenase [FAD, quinone] (Drosophila pseudoobscura pseudoobscura)",Pentose_Phosphate,1.1.5.9,Y,NA
+TCAL_10075,Similar to Fpgt Fucose-1-phosphate guanylyltransferase (Mus musculus),Fructose_Mannose,2.7.7.30,Y,
+TCAL_10116,Similar to enpp6 Ectonucleotide pyrophosphatase/phosphodiesterase family member 6 (Danio rerio),Starch_Sucrose,3.1.4.38,Y,NA
+TCAL_10366,"Similar to pcca-1 Propionyl-CoA carboxylase alpha chain, mitochondrial (Caenorhabditis elegans)",Pyruvate,6.4.1.3 ,Y,NA
+TCAL_10366,"Similar to pcca-1 Propionyl-CoA carboxylase alpha chain, mitochondrial (Caenorhabditis elegans)",TCA,6.4.1.3 ,Y,NA
+TCAL_10367,Similar to Tret1 Facilitated trehalose transporter Tret1 (Bombyx mori),Starch_Sucrose,,Y,
+TCAL_10489,"Similar to GBE1 1,4-alpha-glucan-branching enzyme (Felis catus)",Starch_Sucrose,2.4.1.18,Y,
+TCAL_10499,"Similar to DLD Dihydrolipoyl dehydrogenase, mitochondrial (Canis lupus familiaris)",Glycolysis,1.8.1.4,Y,
+TCAL_10499,"Similar to DLD Dihydrolipoyl dehydrogenase, mitochondrial (Canis lupus familiaris)",TCA,1.8.1.4,Y,
+TCAL_10499,"Similar to DLD Dihydrolipoyl dehydrogenase, mitochondrial (Canis lupus familiaris)",Pyruvate,1.8.1.4,Y,
+TCAL_10544,Similar to Tret1 Facilitated trehalose transporter Tret1 (Aedes aegypti),Starch_Sucrose,,Y,
+TCAL_10577,"Similar to Gld Glucose dehydrogenase [FAD, quinone] (Drosophila pseudoobscura pseudoobscura)",Pentose_Phosphate,1.1.5.9,Y,NA
+TCAL_10608,Similar to AKR1A1 Alcohol dehydrogenase [NADP(+)] (Bos taurus),Glycolysis,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_10608,Similar to AKR1A1 Alcohol dehydrogenase [NADP(+)] (Bos taurus),Pyruvate,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_10680,Similar to frmA S-(hydroxymethyl)glutathione dehydrogenase (Synechocystis sp. (strain PCC 6803 / Kazusa)),Glycolysis,1.1.1.1; 1.1.1.284,Y,
+TCAL_10680,Similar to frmA S-(hydroxymethyl)glutathione dehydrogenase (Synechocystis sp. (strain PCC 6803 / Kazusa)),Pyruvate,1.1.1.1; 1.1.1.284,Y,
+TCAL_10747,Similar to GAA Lysosomal alpha-glucosidase (Homo sapiens),Starch_Sucrose,3.2.1.20,Y,NA
+TCAL_10817,Similar to Trehalase (Tenebrio molitor),Starch_Sucrose,3.2.1.28,Y,
+TCAL_10817,Similar to Trehalase (Tenebrio molitor),Starch_Sucrose,3.2.1.28,Y,
+TCAL_10835,Similar to Tret1 Facilitated trehalose transporter Tret1 (Culex quinquefasciatus),Starch_Sucrose,,Y,
+TCAL_10893,Similar to glmU Bifunctional protein GlmU (Synechococcus sp. (strain JA-2-3B'a(2-13))),Fructose_Mannose,2.7.1.3,N,
+TCAL_10943,"Similar to IDH2 Isocitrate dehydrogenase [NADP], mitochondrial (Macaca fascicularis)",TCA,1.1.1.41,Y,NA
+TCAL_10986,Similar to Pgls 6-phosphogluconolactonase (Rattus norvegicus),Pentose_Phosphate,3.1.1.31,Y,
+TCAL_11000,"Similar to aldh4a1 Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial (Danio rerio)",Glycolysis,1.2.1.88; (1.2.1.3),N,NA
+TCAL_11000,"Similar to aldh4a1 Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial (Danio rerio)",Pyruvate,1.2.1.88; (1.2.1.3),N,NA
+TCAL_11107,Similar to Gapdh2 Glyceraldehyde-3-phosphate dehydrogenase 2 (Drosophila pseudoobscura pseudoobscura),Glycolysis,1.2.1.12,Y,NA
+TCAL_11203,Similar to Tktl2 Transketolase-like protein 2 (Mus musculus),Pentose_Phosphate,2.2.1.1,Y,
+TCAL_11322,"Similar to Mccc1 Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial (Rattus norvegicus)",Pyruvate,6.4.1.4,Y,NA
+TCAL_11322,"Similar to Mccc1 Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial (Rattus norvegicus)",TCA,6.4.1.4,Y,NA
+TCAL_11399,Similar to ALDH1A1 Retinal dehydrogenase 1 (Gallus gallus),Glycolysis,1.2.1.19; 1.2.1.28; 1.2.1.3; 1.2.1.36,Y,NA
+TCAL_11399,Similar to ALDH1A1 Retinal dehydrogenase 1 (Gallus gallus),Pyruvate,1.2.1.19; 1.2.1.28; 1.2.1.3; 1.2.1.36,Y,NA
+TCAL_11409,"Similar to IDH3B Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial (Homo sapiens)",TCA,1.1.1.41,Y,NA
+TCAL_11505,Similar to Hexokinase (Schistosoma mansoni),Glycolysis,2.7.1.1,Y,NA
+TCAL_11505,Similar to Hexokinase (Schistosoma mansoni),Starch_Sucrose,2.7.1.1,Y,NA
+TCAL_11537,"Similar to TIGAR Fructose-2,6-bisphosphatase TIGAR (Bos taurus)",Fructose_Mannose,3.1.3.46,Y,
+TCAL_11544,Similar to BQ2027_MB1310 Uncharacterized GMC-type oxidoreductase Mb1310 (Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)),Pentose_Phosphate,1.1,Y,NA
+TCAL_11561,"Similar to SdhD Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial (Drosophila melanogaster)",TCA,1.3.5.1,Y,
+TCAL_11732,Similar to ALDH3B1 Aldehyde dehydrogenase family 3 member B1 (Homo sapiens),Glycolysis,1.2.1.5,Y,NA
+TCAL_11732,Similar to ALDH3B1 Aldehyde dehydrogenase family 3 member B1 (Homo sapiens),Pyruvate,1.2.1.5,Y,NA
+TCAL_11851,"Similar to NAD-dependent malic enzyme 59 kDa isoform, mitochondrial (Solanum tuberosum)",Pyruvate,1.1.1.39,Y,
+TCAL_11857,Similar to fba Fructose-bisphosphate aldolase (Edwardsiella ictaluri (strain 93-146)),Glycolysis,4.1.2.13,Y,
+TCAL_11857,Similar to fba Fructose-bisphosphate aldolase (Edwardsiella ictaluri (strain 93-146)),Pentose_Phosphate,4.1.2.13,Y,
+TCAL_11857,Similar to fba Fructose-bisphosphate aldolase (Edwardsiella ictaluri (strain 93-146)),Fructose_Mannose,4.1.2.13,Y,
+TCAL_11885,Similar to celD Endoglucanase E-4 (Thermobifida fusca),Starch_Sucrose,3.2.1.4,Y,
+TCAL_12124,Similar to GALM Aldose 1-epimerase (Bos taurus),Glycolysis,5.1.3.3,N,
+TCAL_12137,"Similar to MDH2 Malate dehydrogenase, mitochondrial (Felis catus)",TCA,1.1.1.37,Y,
+TCAL_12137,"Similar to MDH2 Malate dehydrogenase, mitochondrial (Felis catus)",Pyruvate,1.1.1.37,Y,
+TCAL_12291,Similar to RPIA Ribose-5-phosphate isomerase (Sus scrofa),Pentose_Phosphate,5.3.1.6,Y,
+TCAL_12381,Similar to GAPDH Glyceraldehyde-3-phosphate dehydrogenase (Pelodiscus sinensis),Glycolysis,1.2.1.12,Y,
+TCAL_12401,Similar to Txnrd3 Thioredoxin reductase 3 (Mus musculus),Glycolysis,1.8.1.9,Y,NA
+TCAL_12401,Similar to Txnrd3 Thioredoxin reductase 3 (Mus musculus),Pyruvate,1.8.1.9,Y,NA
+TCAL_12427,Similar to Amy2 Pancreatic alpha-amylase (Mus musculus),Starch_Sucrose,3.2.1.1,Y,NA
+TCAL_12429,Similar to amy Alpha-amylase (Pseudoalteromonas haloplanktis),Starch_Sucrose,3.2.1.1,Y,NA
+TCAL_12544,Similar to Akr1a1 Alcohol dehydrogenase [NADP(+)] (Mus musculus),Glycolysis,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_12544,Similar to Akr1a1 Alcohol dehydrogenase [NADP(+)] (Mus musculus),Pyruvate,1.1.1.2; 1.1.1.372; 1.1.1.54,Y,NA
+TCAL_12656,"Similar to ACSM3 Acyl-coenzyme A synthetase ACSM3, mitochondrial (Homo sapiens)",Glycolysis,6.2.1.2,Y,NA
+TCAL_12656,"Similar to ACSM3 Acyl-coenzyme A synthetase ACSM3, mitochondrial (Homo sapiens)",Pyruvate,6.2.1.2,Y,NA
+TCAL_12822,"Similar to Acss1 Acetyl-coenzyme A synthetase 2-like, mitochondrial (Mus musculus)",Glycolysis,6.2.1.1,Y,NA
+TCAL_12822,"Similar to Acss1 Acetyl-coenzyme A synthetase 2-like, mitochondrial (Mus musculus)",Pyruvate,6.2.1.1,Y,NA
+TCAL_12955,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Starch_Sucrose,,Y,
+TCAL_13052,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_13113,Similar to CBH1 Exoglucanase 1 (Phanerochaete chrysosporium),Starch_Sucrose,3.2.1.91,Y,
+TCAL_13265,"Similar to Gmd GDP-mannose 4,6 dehydratase (Drosophila melanogaster)",Fructose_Mannose,4.2.1.47,Y,
+TCAL_13418,Similar to ALDH8A1 Aldehyde dehydrogenase family 8 member A1 (Homo sapiens),Glycolysis,1.2.1.32,Y,NA
+TCAL_13418,Similar to ALDH8A1 Aldehyde dehydrogenase family 8 member A1 (Homo sapiens),Pyruvate,1.2.1.32,Y,NA
+TCAL_13460,Similar to Tret1 Facilitated trehalose transporter Tret1 (Apis mellifera ligustica),Starch_Sucrose,,Y,
+TCAL_13476,Similar to GAPDH Glyceraldehyde-3-phosphate dehydrogenase (Mustela putorius furo),Glycolysis,1.2.1.12,Y,
+TCAL_13530,Similar to GPI Glucose-6-phosphate isomerase (Sus scrofa),Glycolysis,5.3.1.9,Y,Did not save sequence to blast database
+TCAL_13530,Similar to GPI Glucose-6-phosphate isomerase (Sus scrofa),Pentose_Phosphate,5.3.1.9,Y,
+TCAL_13530,Similar to GPI Glucose-6-phosphate isomerase (Sus scrofa),Starch_Sucrose,5.3.1.9,Y,
+TCAL_13686,Similar to Tret1-2 Facilitated trehalose transporter Tret1-2 homolog (Drosophila sechellia),Starch_Sucrose,,Y,
+TCAL_13687,Similar to Mipp1 Multiple inositol polyphosphate phosphatase 1 (Drosophila melanogaster),Glycolysis,3.1.3.62,Y,NA
+TCAL_13805,Similar to ALDH9A1 4-trimethylaminobutyraldehyde dehydrogenase (Homo sapiens),Glycolysis,1.2.1.47,Y,NA
+TCAL_13805,Similar to ALDH9A1 4-trimethylaminobutyraldehyde dehydrogenase (Homo sapiens),Pyruvate,1.2.1.47,Y,NA
+TCAL_13815,Similar to CtBP C-terminal-binding protein (Drosophila melanogaster),Pyruvate,1.1.1,Y,NA
+TCAL_13966,"Similar to tigarb Fructose-2,6-bisphosphatase TIGAR B (Danio rerio)",Fructose_Mannose,3.1.3.46,Y,
+TCAL_14751,"Similar to Gld Glucose dehydrogenase [FAD, quinone] (Drosophila melanogaster)",Pentose_Phosphate,1.1.5.9,Y,NA
+TCAL_16369,Similar to Rbks Ribokinase (Mus musculus),Pentose_Phosphate,2.7.1.15,N,
+TCAL_16871,Similar to Tre1 Protein trapped in endoderm-1 (Drosophila melanogaster),Starch_Sucrose,,Y,
+TCAL_17074,Similar to Tc00.1047053511287.49 Prostaglandin F synthase (Trypanosoma cruzi (strain CL Brener)),Glycolysis,1.1.1,Y,NA
+TCAL_17074,Similar to Tc00.1047053511287.49 Prostaglandin F synthase (Trypanosoma cruzi (strain CL Brener)),Pyruvate,1.1.1,Y,NA
+TCAL_17074,Similar to Tc00.1047053511287.49 Prostaglandin F synthase (Trypanosoma cruzi (strain CL Brener)),Fructose_Mannose,1.1.1,Y,NA
+TCAL_17132,Similar to PGAM1 Phosphoglycerate mutase 1 (Gallus gallus),Glycolysis,5.4.2.11,Y,
+TCAL_17391,"Similar to exgA Probable glucan 1,3-beta-glucosidase A (Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100))",Starch_Sucrose,3.2.1.58,Y,NA
