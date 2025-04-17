@@ -1,0 +1,13 @@
+Package: org.Tcalifornicus.eg.db
+Title: Genome wide annotation for Tigriopus californicus
+Description: Genome wide annotation for Tigriopus californicus, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.1
+Author: Felipe Barreto <Felipe.Barreto@oregonstate.edu>
+Maintainer: Matt Powers <powersm3@oregonstate.edu>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.64.1)
+Suggests: DBI, annotate, RUnit
+License: Artistic-2.0
+organism: Tigriopus californicus
+species: Tigriopus californicus
+biocViews: OrgDb, annotation
+
