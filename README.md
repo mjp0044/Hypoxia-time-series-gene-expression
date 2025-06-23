@@ -38,6 +38,6 @@ Interactive results at: https://mjp0044.github.io/Hypoxia-time-series-gene-expre
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/714b98401a7cea74b82731060f967c4662e494f3/Figures/Fig%205%20motifs.png)
+![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/e726178777a505b60ec9c753e2685d575e7f4fe4/Figures/Fig%205%20motifs.png)
 Fig 5: A subset of significantly enriched transcription factor binding site motifs across clusters. 
 
