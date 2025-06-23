@@ -17,5 +17,5 @@ Interactive results at: https://mjp0044.github.io/Hypoxia-time-series-gene-expre
 
 
 
-![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/73e3de52c360151671f0ea2d5269ed7701828b9b/Figures/maSigPro%20cluster%20patterns%209%20clusters.jpg)
+![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
 *Fig 2: The expression patterns of genes identified to significantly respond over the hypoxia course by maSigPro. Genes were clustered into groups using the default “hclust” (hierarchical cluster analysis) method using Ward.D aggregation and the default k = 9 clusters by maSigPro. Black dots are the mean expression at each time point and error bars represent the standard error of the mean.*
