@@ -9,7 +9,7 @@ Interactive results at: https://mjp0044.github.io/Hypoxia-time-series-gene-expre
 ## Results of the cluster analysis following identification of significant genes using maSigPro
  
 
-![](Figures/Fig 1 Experiment setup.png)
+![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/8d8f83fc64ae410017d69020e6ca1bc90e9d8c5c/Figures/Fig%201%20Experiment%20setup.png)
 *Fig 1: Experimental setup of the hypoxia course.*
 
 
