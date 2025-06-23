@@ -1,0 +1,614 @@
+SDv2.2,Best Swiss-prot hit,mtDNA-inte vs not-int,mtDNA-interaction categories
+TCAL_03747,"Aats-ala-m Alanine--tRNA ligase, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-ARS
+TCAL_10922,"Aats-phe Probable phenylalanine--tRNA ligase, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-ARS
+TCAL_08187,"Dars2 Aspartate--tRNA ligase, mitochondrial (Rattus norvegicus)",mtDNA-interacting,mt-ARS
+TCAL_07328,"EARS2 Probable glutamate--tRNA ligase, mitochondrial (Gallus gallus)",mtDNA-interacting,mt-ARS
+TCAL_10585,"Hars Histidine--tRNA ligase, cytoplasmic (Mus musculus)",mtDNA-interacting,mt-ARS
+TCAL_08039,"IARS2 Isoleucine--tRNA ligase, mitochondrial (Gallus gallus)",mtDNA-interacting,mt-ARS
+TCAL_02280,Kars Lysine--tRNA ligase (Mus musculus),mtDNA-interacting,mt-ARS
+TCAL_04272,"LARS2 Probable leucine--tRNA ligase, mitochondrial (Pongo abelii)",mtDNA-interacting,mt-ARS
+TCAL_12964,"MARS Methionine--tRNA ligase, cytoplasmic (Homo sapiens)",mtDNA-interacting,mt-ARS
+TCAL_07053,"mars2 Methionine--tRNA ligase, mitochondrial (Takifugu rubripes)",mtDNA-interacting,mt-ARS
+TCAL_07109,"Nars2 Probable asparagine--tRNA ligase, mitochondrial (Mus musculus)",mtDNA-interacting,mt-ARS
+TCAL_07473,"PARS2 Probable proline--tRNA ligase, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-ARS
+TCAL_11833,"RARS2 Probable arginine--tRNA ligase, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-ARS
+TCAL_06330,"SARS2 Serine--tRNA ligase, mitochondrial (Bos taurus)",mtDNA-interacting,mt-ARS
+TCAL_09188,Vars Valine--tRNA ligase (Mus musculus),mtDNA-interacting,mt-ARS
+TCAL_01803,"WARS2 Tryptophan--tRNA ligase, mitochondrial (Bos taurus)",mtDNA-interacting,mt-ARS
+TCAL_01599,"bonsai 28S ribosomal protein S15, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_06698,"MRPL1 39S ribosomal protein L1, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_01800,"mRpL10 39S ribosomal protein L10, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_07825,"Mrpl12 39S ribosomal protein L12, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_00434,"mRpL13 39S ribosomal protein L13, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_00364,"mrpl14 39S ribosomal protein L14, mitochondrial (Danio rerio)",mtDNA-interacting,mt-RP
+TCAL_10558,"MRPL15 39S ribosomal protein L15, mitochondrial (Gallus gallus)",mtDNA-interacting,mt-RP
+TCAL_00605,"MRPL16 39S ribosomal protein L16, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_01532,"MRPL18 39S ribosomal protein L18, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_00647,"mRpL19 39S ribosomal protein L19, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_09288,"Mrpl2 39S ribosomal protein L2, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_05556,"MRPL21 39S ribosomal protein L21, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_13866,"mRpL22 39S ribosomal protein L22, mitochondrial (Drosophila pseudoobscura pseudoobscura)",mtDNA-interacting,mt-RP
+TCAL_02539,"mRpL23 39S ribosomal protein L23, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_00652,"mRpL24 Probable 39S ribosomal protein L24, mitochondrial (Drosophila pseudoobscura pseudoobscura)",mtDNA-interacting,mt-RP
+TCAL_03266,"MRPL27 39S ribosomal protein L27, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_09301,"MRPL28 39S ribosomal protein L28, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_09677,"Mrpl30 39S ribosomal protein L30, mitochondrial (Rattus norvegicus)",mtDNA-interacting,mt-RP
+TCAL_06670,"mRpL32 39S ribosomal protein L32, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_09297,"mRpL35 39S ribosomal protein L35, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_01941,"MRPL37 39S ribosomal protein L37, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_01282,"Mrpl38 39S ribosomal protein L38, mitochondrial (Rattus norvegicus)",mtDNA-interacting,mt-RP
+TCAL_10637,"mRpL39 39S ribosomal protein L39, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_00531,"MRPL4 39S ribosomal protein L4, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_11057,"Mrpl40 39S ribosomal protein L40, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_06458,"mRpL41 39S ribosomal protein L41, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_12586,"MRPL42 39S ribosomal protein L42, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_13512,"MRPL43 39S ribosomal protein L43, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_01170,"MRPL44 39S ribosomal protein L44, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_04664,"mRpL45 Probable 39S ribosomal protein L45, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_09023,"MRPL46 39S ribosomal protein L46, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_12399,"Mrpl47 39S ribosomal protein L47, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_11597,"Mrpl48 39S ribosomal protein L48, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_03267,"MRPL49 39S ribosomal protein L49, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_11293,"MRPL50 39S ribosomal protein L50, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_03359,"mRpL51 39S ribosomal protein L51, mitochondrial (Drosophila pseudoobscura pseudoobscura)",mtDNA-interacting,mt-RP
+TCAL_00049,mrpl53 39s ribosomal protein mitochondrial (Homo sapiens),mtDNA-interacting,mt-RP
+TCAL_02610,"mrpl54 39S ribosomal protein L54, mitochondrial (Danio rerio)",mtDNA-interacting,mt-RP
+TCAL_00894,"mRpL9 39S ribosomal protein L9, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_12614,"mrps-5 Putative 28S ribosomal protein S5, mitochondrial (Caenorhabditis elegans)",mtDNA-interacting,mt-RP
+TCAL_00436,"mRpS10 28S ribosomal protein S10, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_03980,"MRPS11 28S ribosomal protein S11, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_05252,"mRpS16 Probable 28S ribosomal protein S16, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_07222,mrps17 28s ribosomal protein mitochondrial (Bos taurus),mtDNA-interacting,mt-RP
+TCAL_07454,"MRPS18B 28S ribosomal protein S18b, mitochondrial (Macaca mulatta)",mtDNA-interacting,mt-RP
+TCAL_03843,"Mrps18c 28S ribosomal protein S18c, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_11595,"Mrps2 28S ribosomal protein S2, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_08385,"MRPS21 28S ribosomal protein S21, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_01554,"MRPS22 28S ribosomal protein S22, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_04583,"MRPS23 28S ribosomal protein S23, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_10166,"mRpS24 28S ribosomal protein S24, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_10597,"mRpS25 Probable 28S ribosomal protein S25, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_03197,"mRpS26 Probable 28S ribosomal protein S26, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_10898,"Mrps28 28S ribosomal protein S28, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_13826,"MRPS30 28S ribosomal protein S30, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_00587,"MRPS31 28S ribosomal protein S31, mitochondrial (Bos taurus)",mtDNA-interacting,mt-RP
+TCAL_01851,"Mrps33 28S ribosomal protein S33, mitochondrial (Mus musculus)",mtDNA-interacting,mt-RP
+TCAL_13636,"MRPS35 28S ribosomal protein S35, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_15842,"mRpS36 28S ribosomal protein 36, mitochondrial",mtDNA-interacting,mt-RP
+TCAL_01053,"mRpS6 Probable 28S ribosomal protein S6, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_09514,"mRpS7 28S ribosomal protein S7, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_03533,"MRPS9 28S ribosomal protein S9, mitochondrial (Homo sapiens)",mtDNA-interacting,mt-RP
+TCAL_04181,"ribosomal protein 63, mitochondrial",mtDNA-interacting,mt-RP
+TCAL_05591,"tko 40S ribosomal protein S12, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mt-RP
+TCAL_05035,"mtSSB Single-stranded DNA-binding protein, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,mtDNA replication
+TCAL_01064,PAPOLG Poly(A) polymerase gamma (Homo sapiens),mtDNA-interacting,mtDNA replication
+TCAL_13733,"PEO1 Twinkle protein, mitochondrial (Homo sapiens)",mtDNA-interacting,mtDNA replication
+TCAL_12602,POLG DNA polymerase subunit gamma-1 (Homo sapiens),mtDNA-interacting,mtDNA replication
+TCAL_11296,"Polrmt DNA-directed RNA polymerase, mitochondrial (Mus musculus)",mtDNA-interacting,mtDNA transcription
+TCAL_04550,"TFAM Transcription factor A, mitochondrial (Bos taurus)",mtDNA-interacting,mtDNA transcription
+TCAL_00304,"TFB1M Dimethyladenosine transferase 1, mitochondrial (Macaca fascicularis)",mtDNA-interacting,mtDNA transcription
+TCAL_00157,C33A12.1 Probable NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5 (Caenorhabditis elegans),mtDNA-interacting,OXPHOS Comp-I
+TCAL_06393,D2030.4 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 7 (Caenorhabditis elegans),mtDNA-interacting,OXPHOS Comp-I
+TCAL_07308,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 10 (Bombyx mori),mtDNA-interacting,OXPHOS Comp-I
+TCAL_06785,"ND42 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 10, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_05883,NDUFA13 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13 (Macaca fascicularis),mtDNA-interacting,OXPHOS Comp-I
+TCAL_00348,NDUFA2 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 2 (Pongo pygmaeus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_02369,Ndufa4 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 4 (Mus musculus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_06837,NDUFA6 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 6 (Pongo pygmaeus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_03196,Ndufa7 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 7 (Mus musculus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_01585,Ndufa8 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 8 (Mus musculus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_09109,"NDUFA9 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 9, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_04173,NDUFAF3 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3 (Bos taurus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_08202,Ndufaf4 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 4 (Rattus norvegicus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_06601,"NDUFAF6 NADH dehydrogenase (ubiquinone) complex I, assembly factor 6 (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_00350,"ndufaf7 NADH dehydrogenase [ubiquinone] complex I, assembly factor 7 (Xenopus tropicalis)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_00331,"NDUFB11 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 11, mitochondrial (Gorilla gorilla gorilla)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_03847,NDUFB3 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 3 (Pongo pygmaeus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_05872,"NDUFB5 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 5, mitochondrial (Macaca fascicularis)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_00807,"NDUFB8 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 8, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_09098,Ndufb9 NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 9 (Mus musculus),mtDNA-interacting,OXPHOS Comp-I
+TCAL_12405,"Ndufs1 NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial (Rattus norvegicus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_06478,"Ndufs2 NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial (Rattus norvegicus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_01480,"NDUFS3 NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial (Pongo pygmaeus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_00849,"Ndufs4 NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial (Rattus norvegicus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_02370,"Ndufs6 NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial (Rattus norvegicus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_00848,"NDUFS7 NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_10348,"NDUFS8 NADH dehydrogenase [ubiquinone] iron-sulfur protein 8, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_03116,"NDUFV1 NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_08370,"NDUFV2 NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-I
+TCAL_03098,"CYC1 Cytochrome c1, heme protein, mitochondrial (Homo sapiens)",mtDNA-interacting,OXPHOS Comp-III
+TCAL_07035,UQCR10 Cytochrome b-c1 complex subunit 9 (Bos taurus),mtDNA-interacting,OXPHOS Comp-III
+TCAL_07371,UQCRB Cytochrome b-c1 complex subunit 7 (Bos taurus),mtDNA-interacting,OXPHOS Comp-III
+TCAL_07917,"UQCRC2 Cytochrome b-c1 complex subunit 2, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-III
+TCAL_03710,"UQCRFS1 Cytochrome b-c1 complex subunit Rieske, mitochondrial (Lagothrix lagotricha)",mtDNA-interacting,OXPHOS Comp-III
+TCAL_00971,UQCRQ Cytochrome b-c1 complex subunit 8 (Homo sapiens),mtDNA-interacting,OXPHOS Comp-III
+TCAL_03717,"COA4 Cytochrome c oxidase assembly factor 4 homolog, mitochondrial (Mus musculus)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_01852,coa5 Cytochrome c oxidase assembly factor 5 (Xenopus tropicalis),mtDNA-interacting,OXPHOS Comp-IV
+TCAL_00456,"COX11 Cytochrome c oxidase assembly protein COX11, mitochondrial (Homo sapiens)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_03217,cox12 Cytochrome c oxidase subunit 6B (Schizosaccharomyces pombe (strain 972 / ATCC 24843)),mtDNA-interacting,OXPHOS Comp-IV
+TCAL_03480,COX15 Cytochrome c oxidase assembly protein COX15 homolog (Homo sapiens),mtDNA-interacting,OXPHOS Comp-IV
+TCAL_05000,COX18 Mitochondrial inner membrane protein COX18 (Homo sapiens),mtDNA-interacting,OXPHOS Comp-IV
+TCAL_04175,"COX4I1 Cytochrome c oxidase subunit 4 isoform 1, mitochondrial (Fragment) (Theropithecus gelada)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_03319,"COX5A Cytochrome c oxidase subunit 5A, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_06667,"COX5B Cytochrome c oxidase subunit 5B, mitochondrial (Homo sapiens)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_16413,"Cox6a1 Cytochrome c oxidase subunit 6A1, mitochondrial (Rattus norvegicus)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_10240,Cox6c Cytochrome c oxidase subunit 6C (Mus musculus),mtDNA-interacting,OXPHOS Comp-IV
+TCAL_12221,"Cytochrome c oxidase assembly factor 8; Apopt1 Apoptogenic protein 1, mitochondrial (Mus musculus)",mtDNA-interacting,OXPHOS Comp-IV
+TCAL_16789,ATP synthase F(0) complex subunit e [Cricetulus longicaudatus],mtDNA-interacting,OXPHOS Comp-V
+TCAL_11042,"ATP synthase lipid-binding protein, mitochondrial (Manduca sexta)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_13904,"ATP synthase subunit epsilon, mitochondrial (Ipomoea batatas)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_02043,"Atp5d ATP synthase subunit delta, mitochondrial (Mus musculus)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_04256,"ATP5L ATP synthase subunit g, mitochondrial (Homo sapiens)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_05927,"ATP5S ATP synthase subunit s, mitochondrial (Bos taurus)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_15094,ATPAF2 ATP synthase mitochondrial F1 complex assembly factor 2 (Bos taurus),mtDNA-interacting,OXPHOS Comp-V
+TCAL_05837,"ATPsyn-b ATP synthase subunit b, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_07372,"ATPsyn-beta ATP synthase subunit beta, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_08515,"ATPsyn-Cf6 ATP synthase-coupling factor 6, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_05607,"ATPsyn-d ATP synthase subunit d, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_17301,"ATPsyn-gamma ATP synthase subunit gamma, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_05580,"ATPsynO ATP synthase subunit O, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_11397,"blw ATP synthase subunit alpha, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_11398,"blw ATP synthase subunit alpha, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_04747,"CG4692 Putative ATP synthase subunit f, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,OXPHOS Comp-V
+TCAL_10247,"BRAFLDRAFT_270748 Glutamyl-tRNA(Gln) amidotransferase subunit C, mitochondrial (Branchiostoma floridae)",mtDNA-interacting,translation factor
+TCAL_02044,"CPIJ005834 Elongation factor G, mitochondrial (Culex quinquefasciatus)",mtDNA-interacting,translation factor
+TCAL_11405,"gatA Glutamyl-tRNA(Gln) amidotransferase subunit A, mitochondrial (Anopheles gambiae)",mtDNA-interacting,translation factor
+TCAL_10086,"GatB Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial (Drosophila melanogaster)",mtDNA-interacting,translation factor
+TCAL_02796,"Guf1 Translation factor Guf1, mitochondrial (Mus musculus)",mtDNA-interacting,translation factor
+TCAL_04972,"Mrpl58 Peptidyl-tRNA hydrolase ICT1, mitochondrial (Mus musculus)",mtDNA-interacting,translation factor
+TCAL_08083,"Mtfmt Methionyl-tRNA formyltransferase, mitochondrial (Mus musculus)",mtDNA-interacting,translation factor
+TCAL_17405,"Mtfmt Methionyl-tRNA formyltransferase, mitochondrial (Mus musculus)",mtDNA-interacting,translation factor
+TCAL_13790,"Mtif2 Translation initiation factor IF-2, mitochondrial (Mus musculus)",mtDNA-interacting,translation factor
+TCAL_09099,"MTO1 Protein MTO1 homolog, mitochondrial (Macaca fascicularis)",mtDNA-interacting,translation factor
+TCAL_11127,"PTRH2 Peptidyl-tRNA hydrolase 2, mitochondrial (Homo sapiens)",mtDNA-interacting,translation factor
+TCAL_17226,"PTRH2 Peptidyl-tRNA hydrolase 2, mitochondrial (Homo sapiens)",mtDNA-interacting,translation factor
+TCAL_11958,"TUFM Elongation factor Tu, mitochondrial (Bos taurus)",mtDNA-interacting,translation factor
+TCAL_05467,"TUFM Elongation factor Tu, mitochondrial (Homo sapiens)",mtDNA-interacting,translation factor
+TCAL_03982,"AADAT Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_11524,"AADAT Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_06653,AAEL000794 Clustered mitochondria protein homolog (Aedes aegypti),not-interacting,no-int
+TCAL_00588,"AAEL009368 Lipoyl synthase, mitochondrial (Aedes aegypti)",not-interacting,no-int
+TCAL_05997,"AAEL011789 Probable citrate synthase 2, mitochondrial (Aedes aegypti)",not-interacting,no-int
+TCAL_11846,"AASS Alpha-aminoadipic semialdehyde synthase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_01296,"ABAT 4-aminobutyrate aminotransferase, mitochondrial (Sus scrofa)",not-interacting,no-int
+TCAL_07357,"ABAT 4-aminobutyrate aminotransferase, mitochondrial (Sus scrofa)",not-interacting,no-int
+TCAL_03147,"Abcb10 ATP-binding cassette sub-family B member 10, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_13378,"abcb6 ATP-binding cassette sub-family B member 6, mitochondrial (Xenopus tropicalis)",not-interacting,no-int
+TCAL_07283,"ABCB7 ATP-binding cassette sub-family B member 7, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_07153,"abcb8 ATP-binding cassette sub-family B member 8, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_10253,ABCD2 ATP-binding cassette sub-family D member 2 (Homo sapiens),not-interacting,no-int
+TCAL_09747,"ABHD10 Mycophenolic acid acyl-glucuronide esterase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_11389,abhd11 Alpha/beta hydrolase domain-containing protein 11 (Danio rerio),not-interacting,no-int
+TCAL_00708,"ABT ADP,ATP carrier protein (Chlamydomonas reinhardtii)",not-interacting,no-int
+TCAL_08619,"ACAA2 3-ketoacyl-CoA thiolase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01897,"ACAD8 Isobutyryl-CoA dehydrogenase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_00457,"ACAD9 Acyl-CoA dehydrogenase family member 9, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01917,"Acadl Long-chain specific acyl-CoA dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_12103,"ACADM Medium-chain specific acyl-CoA dehydrogenase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_00361,"Acads Short-chain specific acyl-CoA dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_07844,"Acadvl Very long-chain specific acyl-CoA dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_07559,Acly ATP-citrate synthase (Mus musculus),not-interacting,no-int
+TCAL_01219,ACO1 Cytoplasmic aconitate hydratase (Homo sapiens),not-interacting,no-int
+TCAL_07255,"Aco2 Aconitate hydratase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_01789,ACOT13 Acyl-coenzyme A thioesterase 13 (Pongo abelii),not-interacting,no-int
+TCAL_09368,"ACOT9 Acyl-coenzyme A thioesterase 9, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_06144,"ACSF2 Acyl-CoA synthetase family member 2, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_12937,"ACSF2 Acyl-CoA synthetase family member 2, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_01042,"acsf3 Acyl-CoA synthetase family member 3, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_05174,"acsf3 Acyl-CoA synthetase family member 3, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_12656,"ACSM3 Acyl-coenzyme A synthetase ACSM3, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_12822,"Acss1 Acetyl-coenzyme A synthetase 2-like, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05040,"ACSS3 Acyl-CoA synthetase short-chain family member 3, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_13290,Adck1 Uncharacterized aarF domain-containing protein kinase 1 (Mus musculus),not-interacting,no-int
+TCAL_11325,Adck2 Uncharacterized aarF domain-containing protein kinase 2 (Mus musculus),not-interacting,no-int
+TCAL_01111,Adk2 Adenylate kinase (Drosophila melanogaster),not-interacting,no-int
+TCAL_12115,"AGAP006646 Probable hydroxyacid-oxoacid transhydrogenase, mitochondrial (Anopheles gambiae)",not-interacting,no-int
+TCAL_07285,"agk Acylglycerol kinase, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_05593,"Aifm1 Apoptosis-inducing factor 1, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_00834,AIFM3 Apoptosis-inducing factor 3 (Homo sapiens),not-interacting,no-int
+TCAL_00864,"AK3 GTP:AMP phosphotransferase AK3, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_08634,"Akap10 A-kinase anchor protein 10, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_02860,"ALAS1 5-aminolevulinate synthase, nonspecific, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_03832,Aldh18a1 Delta-1-pyrroline-5-carboxylate synthase (Mus musculus),not-interacting,no-int
+TCAL_01748,Aldh1l2 Mitochondrial 10-formyltetrahydrofolate dehydrogenase (Mus musculus),not-interacting,no-int
+TCAL_02765,"Aldh2 Aldehyde dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_11000,"aldh4a1 Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_05074,"Aldh5a1 Succinate-semialdehyde dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_05307,"Aldh6a1 Methylmalonate-semialdehyde dehydrogenase [acylating], mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04840,ALDH7A1 Alpha-aminoadipic semialdehyde dehydrogenase (Bos taurus),not-interacting,no-int
+TCAL_13805,ALDH9A1 4-trimethylaminobutyraldehyde dehydrogenase (Homo sapiens),not-interacting,no-int
+TCAL_07977,"Amt Aminomethyltransferase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_06082,"AOX1 Alternative oxidase, mitochondrial (Venturia inaequalis)",not-interacting,no-int
+TCAL_03780,aralar1 Calcium-binding mitochondrial carrier protein Aralar1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_04979,atad3-b ATPase family AAA domain-containing protein 3-B (Xenopus laevis),not-interacting,no-int
+TCAL_06414,Atp6v0a1 V-type proton ATPase 116 kDa subunit a isoform 1 (Mus musculus),not-interacting,no-int
+TCAL_04991,"Atpif1 ATPase inhibitor, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_01459,"AUH Methylglutaconyl-CoA hydratase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_04777,"B0513.5 Proline dehydrogenase 1, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_06151,"BCKDHA 2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_09577,"BCKDHB 2-oxoisovalerate dehydrogenase subunit beta, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_02866,"BCKDK [3-methyl-2-oxobutanoate dehydrogenase [lipoamide]] kinase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_00319,bcs1l Mitochondrial chaperone BCS1 (Danio rerio),not-interacting,no-int
+TCAL_05735,Bcs1l Mitochondrial chaperone BCS1 (Mus musculus),not-interacting,no-int
+TCAL_09392,"Bdh1 D-beta-hydroxybutyrate dehydrogenase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_08604,"Bdh1 D-beta-hydroxybutyrate dehydrogenase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_00453,"beg Probable malonyl-CoA-acyl carrier protein transacylase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02862,blos1 Biogenesis of lysosome-related organelles complex 1 subunit 1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_10924,BPHL Valacyclovir hydrolase (Homo sapiens),not-interacting,no-int
+TCAL_01174,"C1qbp Complement component 1 Q subcomponent-binding protein, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_08462,C8orf82 UPF0598 protein C8orf82 (Homo sapiens),not-interacting,no-int
+TCAL_02461,Carkd ATP-dependent (S)-NAD(P)H-hydrate dehydratase (Mus musculus),not-interacting,no-int
+TCAL_02199,Cat Catalase (Drosophila melanogaster),not-interacting,no-int
+TCAL_02622,Ccbl2 Kynurenine--oxoglutarate transaminase 3 (Mus musculus),not-interacting,no-int
+TCAL_08496,CCDC51 Coiled-coil domain-containing protein 51 (Bos taurus),not-interacting,no-int
+TCAL_02050,CCT7 T-complex protein 1 subunit eta (Gallus gallus),not-interacting,no-int
+TCAL_10610,"CG12264 Probable cysteine desulfurase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_00051,"CG16935 Probable trans-2-enoyl-CoA reductase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02132,CG3021 Mitochondrial tRNA-specific 2-thiouridylase 1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_05156,"CG4495 Calcium uptake protein 1 homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_06778,"CG4495 Calcium uptake protein 1 homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02901,"CG4679 Protein PTCD3 homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_05729,"CG7280 Probable sulfite oxidase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_07457,"CG7506 Transmembrane protein 70 homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_04903,"CG9791 ATP-dependent RNA helicase SUV3 homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_05366,"Chchd2 Coiled-coil-helix-coiled-coil-helix domain-containing protein 2, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_00867,Chchd4 Mitochondrial intermembrane space import and assembly protein 40 (Mus musculus),not-interacting,no-int
+TCAL_12355,"chchd6 Coiled-coil-helix-coiled-coil-helix domain-containing protein 6, mitochondrial (Xenopus tropicalis)",not-interacting,no-int
+TCAL_11167,"Chdh Choline dehydrogenase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_01568,"CIA30 Complex I intermediate-associated protein 30, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_00859,"CISD3 CDGSH iron-sulfur domain-containing protein 3, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01166,CLPB Caseinolytic peptidase B protein homolog (Bos taurus),not-interacting,no-int
+TCAL_05557,"Clpx ATP-dependent Clp protease ATP-binding subunit clpX-like, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_09890,"CLPX ATP-dependent Clp protease ATP-binding subunit clpX-like, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_12594,"CLYBL Citrate lyase subunit beta-like protein, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_04625,CMC1 COX assembly mitochondrial protein homolog (Bos taurus),not-interacting,no-int
+TCAL_09100,cmc2 COX assembly mitochondrial protein 2 homolog (Danio rerio),not-interacting,no-int
+TCAL_07684,COASY Bifunctional coenzyme A synthase (Sus scrofa),not-interacting,no-int
+TCAL_04518,"Complex I assembly factor TIMMDC1, mitochondrial; Alt=140up RPII140-upstream gene protein (Drosophila melanogaster)",not-interacting,no-int
+TCAL_09795,"COQ10B Coenzyme Q-binding protein COQ10 homolog B, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_10982,"coq2 4-hydroxybenzoate polyprenyltransferase, mitochondrial (Aedes aegypti)",not-interacting,no-int
+TCAL_07962,"Coq3 Hexaprenyldihydroxybenzoate methyltransferase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_01175,"coq5 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_05048,coq6 Ubiquinone biosynthesis monooxygenase COQ6 (Xenopus tropicalis),not-interacting,no-int
+TCAL_12478,"COQ7 5-demethoxyubiquinone hydroxylase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_12094,"coq8a Atypical kinase COQ8A, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_03740,"cps-6 Endonuclease G, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_02254,"CPT1A Carnitine O-palmitoyltransferase 1, liver isoform (Homo sapiens)",not-interacting,no-int
+TCAL_03552,"CPT2 Carnitine O-palmitoyltransferase 2, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_03579,CRAT Carnitine O-acetyltransferase (Columba livia),not-interacting,no-int
+TCAL_02907,Cry2 Cryptochrome-2 (Mus musculus),not-interacting,no-int
+TCAL_07367,"cyct Cytochrome c, testis-specific (Xenopus laevis)",not-interacting,no-int
+TCAL_06087,Cyp1 Peptidyl-prolyl cis-trans isomerase (Drosophila melanogaster),not-interacting,no-int
+TCAL_12040,Cyp1 Peptidyl-prolyl cis-trans isomerase (Drosophila melanogaster),not-interacting,no-int
+TCAL_03696,"D10Jhu81e ES1 protein homolog, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_07130,"d2hgdh D-2-hydroxyglutarate dehydrogenase, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_04195,"Dbt Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_03923,"DDB_G0271866 3-hydroxybutyryl-CoA dehydratase-like protein, mitochondrial (Dictyostelium discoideum)",not-interacting,no-int
+TCAL_09082,Ddx28 Probable ATP-dependent RNA helicase DDX28 (Mus musculus),not-interacting,no-int
+TCAL_02149,"Decr1 2,4-dienoyl-CoA reductase, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_10266,"DHAR1 Glutathione S-transferase DHAR1, mitochondrial (Arabidopsis thaliana)",not-interacting,no-int
+TCAL_01915,"DHODH Dihydroorotate dehydrogenase (quinone), mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_00032,Dhrs1 Dehydrogenase/reductase SDR family member 1 (Mus musculus),not-interacting,no-int
+TCAL_03865,Dhrs1 Dehydrogenase/reductase SDR family member 1 (Mus musculus),not-interacting,no-int
+TCAL_05292,"DHTKD1 Probable 2-oxoglutarate dehydrogenase E1 component DHKTD1, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_00990,DHX57 Putative ATP-dependent RNA helicase DHX57 (Homo sapiens),not-interacting,no-int
+TCAL_00437,"Diablo Diablo homolog, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_11246,"dib Cytochrome P450 302a1, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_07947,dj-1beta Protein dj-1beta (Drosophila melanogaster),not-interacting,no-int
+TCAL_04913,"dlat-1 Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_10499,"DLD Dihydrolipoyl dehydrogenase, mitochondrial (Canis familiaris)",not-interacting,no-int
+TCAL_00774,"DLST Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_03022,DNA-ligI DNA ligase 1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_10648,Dnlz DNL-type zinc finger protein (Mus musculus),not-interacting,no-int
+TCAL_02077,DTYMK Thymidylate kinase (Homo sapiens),not-interacting,no-int
+TCAL_05935,"Echdc3 Enoyl-CoA hydratase domain-containing protein 3, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_07114,"Echs1 Enoyl-CoA hydratase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_11566,"Eci1 Enoyl-CoA delta isomerase 1, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_04563,"Eci2 Enoyl-CoA delta isomerase 2, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_02758,"ECSIT Evolutionarily conserved signaling intermediate in Toll pathway, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02766,ENOSF1 Mitochondrial enolase superfamily member 1 (Homo sapiens),not-interacting,no-int
+TCAL_09816,"eral1 GTPase Era, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_09692,"ES1 protein homolog, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_04222,"ETFA Electron transfer flavoprotein subunit alpha, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_05381,ETFB Electron transfer flavoprotein subunit beta (Homo sapiens),not-interacting,no-int
+TCAL_12805,"Etfdh Electron transfer flavoprotein-ubiquinone oxidoreductase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_08804,Etfrf1 Electron transfer flavoprotein regulatory factor 1 (Mus musculus),not-interacting,no-int
+TCAL_07832,"Ethe1 Persulfide dioxygenase ETHE1, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_12400,"Exog Nuclease EXOG, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_11783,"FAHD1 Acylpyruvase FAHD1, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_08200,FAM210A Protein FAM210A (Gallus gallus),not-interacting,no-int
+TCAL_02882,FDPS Farnesyl pyrophosphate synthase (Homo sapiens),not-interacting,no-int
+TCAL_09759,"FDX1 Adrenodoxin, mitochondrial (Sus scrofa)",not-interacting,no-int
+TCAL_12694,"fdx2 Ferredoxin-2, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_13814,"fdxr NADPH:adrenodoxin oxidoreductase, mitochondrial (Salvelinus fontinalis)",not-interacting,no-int
+TCAL_12886,"FeCh Ferrochelatase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_01189,"FH Fumarate hydratase, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_00500,Fis1 Mitochondrial fission 1 protein (Mus musculus),not-interacting,no-int
+TCAL_11664,foxred1 FAD-dependent oxidoreductase domain-containing protein 1 (Xenopus laevis),not-interacting,no-int
+TCAL_06969,"FPGS Folylpolyglutamate synthase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_09371,"GCAT 2-amino-3-ketobutyrate coenzyme A ligase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_09929,"GCDH Glutaryl-CoA dehydrogenase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_03805,"Gdh Glutamate dehydrogenase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_12623,Gfer FAD-linked sulfhydryl oxidase ALR (Mus musculus),not-interacting,no-int
+TCAL_04925,"Gfm2 Ribosome-releasing factor 2, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_00329,GK3P Putative glycerol kinase 3 (Homo sapiens),not-interacting,no-int
+TCAL_00721,"GLDC Glycine dehydrogenase (decarboxylating), mitochondrial (Gallus gallus)",not-interacting,no-int
+TCAL_01956,Glod4 Glyoxalase domain-containing protein 4 (Mus musculus),not-interacting,no-int
+TCAL_14899,"GLRX5 Glutaredoxin-related protein 5, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01691,"Gls Glutaminase kidney isoform, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_03613,"Gls Glutaminase kidney isoform, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04316,"Gls Glutaminase kidney isoform, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04376,"Gls Glutaminase kidney isoform, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05393,"Gls Glutaminase kidney isoform, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_07223,"Gls Glutaminase kidney isoform, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_09685,glt1 Putative glutamate synthase [NADPH] (Schizosaccharomyces pombe (strain 972 / ATCC 24843)),not-interacting,no-int
+TCAL_06490,"GM13534 NFU1 iron-sulfur cluster scaffold homolog, mitochondrial (Drosophila sechellia)",not-interacting,no-int
+TCAL_12968,"Got2 Aspartate aminotransferase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_02171,"GPD2 Glycerol-3-phosphate dehydrogenase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_03482,"Gsr Glutathione reductase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_12305,Gstk1 Glutathione S-transferase kappa 1 (Mus musculus),not-interacting,no-int
+TCAL_04879,"gtpbp3 tRNA modification GTPase GTPBP3, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_01055,"Hadh Hydroxyacyl-coenzyme A dehydrogenase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04226,"HADHA Trifunctional enzyme subunit alpha, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_08594,"HADHB Trifunctional enzyme subunit beta, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_08378,"hagh Hydroxyacylglutathione hydrolase, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_08373,HCCS Cytochrome c-type heme lyase (Gallus gallus),not-interacting,no-int
+TCAL_00409,Hdhd5 Haloacid dehalogenase-like hydrolase domain-containing 5 (Mus musculus),not-interacting,no-int
+TCAL_07290,Hemk1 HemK methyltransferase family member 1 (Mus musculus),not-interacting,no-int
+TCAL_04156,"HIBADH 3-hydroxyisobutyrate dehydrogenase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_12649,"HIBADH 3-hydroxyisobutyrate dehydrogenase, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_00560,"hibch 3-hydroxyisobutyryl-CoA hydrolase, mitochondrial (Xenopus tropicalis)",not-interacting,no-int
+TCAL_07332,"HMGCL Hydroxymethylglutaryl-CoA lyase, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_11632,HRSP12 Ribonuclease UK114 (Homo sapiens),not-interacting,no-int
+#N/A,HSD17B10 3-hydroxyacyl-CoA dehydrogenase type-2 (Bos taurus),not-interacting,no-int
+TCAL_07644,HSD17B4 Peroxisomal multifunctional enzyme type 2 (Homo sapiens),not-interacting,no-int
+TCAL_00738,HSD17B8 Estradiol 17-beta-dehydrogenase 8 (Canis familiaris),not-interacting,no-int
+TCAL_02260,"Hsp60 60 kDa heat shock protein, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02721,"HSPA9 Stress-70 protein, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_00345,"HTD2 Hydroxyacyl-thioester dehydratase type 2, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_07571,"HtrA2 Serine protease HTRA2, mitochondrial (Drosophila pseudoobscura pseudoobscura)",not-interacting,no-int
+TCAL_00240,"iba57 Putative transferase CAF17 homolog, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_02146,IDE Insulin-degrading enzyme (Bos taurus),not-interacting,no-int
+TCAL_10943,"IDH2 Isocitrate dehydrogenase [NADP], mitochondrial (Fragment) (Sus scrofa)",not-interacting,no-int
+TCAL_07824,"IDH3B Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_11409,"IDH3B Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_00781,"IDH3G Isocitrate dehydrogenase [NAD] subunit gamma, mitochondrial (Fragment) (Macaca fascicularis)",not-interacting,no-int
+TCAL_09908,Immp1l Mitochondrial inner membrane protease subunit 1 (Mus musculus),not-interacting,no-int
+TCAL_03633,immp2l Mitochondrial inner membrane protease subunit 2 (Xenopus laevis),not-interacting,no-int
+TCAL_01595,"isca1 Iron-sulfur cluster assembly 1 homolog, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_00485,"ISCA2 Iron-sulfur cluster assembly 2 homolog, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_03512,"Iscu Iron-sulfur cluster assembly enzyme ISCU, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_03214,"ISOC2 Isochorismatase domain-containing protein 2, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_00897,"isoc2 Isochorismatase domain-containing protein 2, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_08257,"Ivd Isovaleryl-CoA dehydrogenase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_00784,"JhI-1 Ribonuclease Z, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_12138,Kole_1935 Probable transcriptional regulatory protein Kole_1935 (Kosmotoga olearia (strain TBF 19.5.1)),not-interacting,no-int
+TCAL_04739,"L-galactono-1,4-lactone dehydrogenase, mitochondrial (Brassica oleracea)",not-interacting,no-int
+TCAL_00236,"l(1)G0156 Probable isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_10405,l(2)37Cc Protein l(2)37Cc (Drosophila melanogaster),not-interacting,no-int
+TCAL_03631,"l(2)tid Protein tumorous imaginal discs, mitochondrial (Drosophila virilis)",not-interacting,no-int
+TCAL_04097,"LACTB Serine beta-lactamase-like protein LACTB, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_02076,"LDHD Probable D-lactate dehydrogenase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_12572,LETM1 Mitochondrial proton/calcium exchanger protein (Gallus gallus),not-interacting,no-int
+TCAL_08451,"Lipt1 Lipoyltransferase 1, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05595,"lipt2 Putative lipoyltransferase 2, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_08724,"Lonp1 Lon protease homolog, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_02200,"lrpprc Leucine-rich PPR motif-containing protein, mitochondrial (Xenopus tropicalis)",not-interacting,no-int
+TCAL_05579,"lrpprc Leucine-rich PPR motif-containing protein, mitochondrial (Xenopus tropicalis)",not-interacting,no-int
+TCAL_06576,"LTA3 Dihydrolipoyllysine-residue acetyltransferase component 1 of pyruvate dehydrogenase complex, mitochondrial (Arabidopsis thaliana)",not-interacting,no-int
+TCAL_03350,lyrm7 Complex III assembly factor LYRM7 (Xenopus tropicalis),not-interacting,no-int
+TCAL_08654,MARC1 Mitochondrial amidoxime-reducing component 1 (Homo sapiens),not-interacting,no-int
+TCAL_08131,MARC2 Mitochondrial amidoxime reducing component 2 (Bos taurus),not-interacting,no-int
+TCAL_11322,"Mccc1 Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_12773,"Mccc2 Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_01397,"Mccc2 Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_01918,"Mcee Methylmalonyl-CoA epimerase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05575,"mcu Calcium uniporter protein, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_12137,"MDH2 Malate dehydrogenase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_00541,"metap1d Methionine aminopeptidase 1D, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_04601,"metap1d Methionine aminopeptidase 1D, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_01437,"METTL17 Methyltransferase-like protein 17, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_00004,mgme1 Mitochondrial genome maintenance exonuclease 1 (Xenopus tropicalis) ,not-interacting,no-int
+TCAL_05769,Mgst1 Microsomal glutathione S-transferase 1 (Mus musculus),not-interacting,no-int
+TCAL_08930,"MICU3 Calcium uptake protein 3, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_11200,"Micu3 Calcium uptake protein 3, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_15318,MINOS1 Mitochondrial inner membrane organizing system protein 1 (Homo sapiens),not-interacting,no-int
+TCAL_00516,MIPEP Mitochondrial intermediate peptidase (Homo sapiens),not-interacting,no-int
+TCAL_08636,Miro Mitochondrial Rho GTPase (Drosophila melanogaster),not-interacting,no-int
+TCAL_10735,"MLYCD Malonyl-CoA decarboxylase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_13342,"Mmaa Methylmalonic aciduria type A homolog, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_01498,"MMAB Cob(I)yrinic acid a,c-diamide adenosyltransferase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01832,"MMADHC Methylmalonic aciduria and homocystinuria type D homolog, mitochondrial (Gallus gallus)",not-interacting,no-int
+TCAL_16166,mpv17 Protein Mpv17 (Danio rerio),not-interacting,no-int
+TCAL_07045,mpv17l Mpv17-like protein (Xenopus laevis),not-interacting,no-int
+TCAL_07134,mpv17l Mpv17-like protein (Xenopus laevis),not-interacting,no-int
+TCAL_07878,mpv17l Mpv17-like protein (Xenopus laevis),not-interacting,no-int
+TCAL_07753,mpv17l2 Mpv17-like protein 2 (Xenopus tropicalis),not-interacting,no-int
+TCAL_01255,"MRM3 rRNA methyltransferase 3, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_06759,Mrpp3 Mitochondrial ribonuclease P protein 3 (Rattus norvegicus),not-interacting,no-int
+TCAL_05002,"MRRF Ribosome-recycling factor, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_12966,mrs2 Mitochondrial inner membrane magnesium transporter mrs2 (Schizosaccharomyces pombe (strain 972 / ATCC 24843)),not-interacting,no-int
+TCAL_13521,"MSS51 Putative protein MSS51 homolog, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_07284,"Mss51 Putative protein MSS51 homolog, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04131,"mtacp1 Acyl carrier protein, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_06032,MTCH2 Mitochondrial carrier homolog 2 (Bos taurus),not-interacting,no-int
+TCAL_01179,"mTerf3 Transcription termination factor 3, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_10297,Mtfp1 Mitochondrial fission process protein 1 (Mus musculus),not-interacting,no-int
+TCAL_12591,mtg1 Mitochondrial ribosome-associated GTPase 1 (Ictalurus punctatus),not-interacting,no-int
+TCAL_02133,"MTHFD1 C-1-tetrahydrofolate synthase, cytoplasmic (Homo sapiens)",not-interacting,no-int
+TCAL_07667,"Mtpap Poly(A) RNA polymerase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_07237,MTX2 Metaxin-2 (Sus scrofa),not-interacting,no-int
+TCAL_16880,mul1 Mitochondrial ubiquitin ligase activator of nfkb 1 (Xenopus laevis),not-interacting,no-int
+TCAL_08681,"Mut Methylmalonyl-CoA mutase, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_02406,Mutyh A/G-specific adenine DNA glycosylase (Mus musculus),not-interacting,no-int
+TCAL_13998,"Myg1 UPF0160 protein MYG1, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_11851,"NAD-dependent malic enzyme 59 kDa isoform, mitochondrial (Solanum tuberosum)",not-interacting,no-int
+TCAL_07301,"Nadk2 NAD kinase 2, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_06536,NIF3L1 Putative GTP cyclohydrolase 1 type 2 NIF3L1 (Homo sapiens),not-interacting,no-int
+TCAL_03278,Nipsnap Protein NipSnap (Drosophila melanogaster),not-interacting,no-int
+TCAL_02560,Nme2 Nucleoside diphosphate kinase B (Rattus norvegicus),not-interacting,no-int
+TCAL_03151,"NNT NAD(P) transhydrogenase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_01172,Noa1 Nitric oxide-associated protein 1 (Mus musculus),not-interacting,no-int
+TCAL_03719,NPEPL1 Probable aminopeptidase NPEPL1 (Pongo abelii),not-interacting,no-int
+TCAL_10340,NT5C3A Cytosolic 5'-nucleotidase 3A (Gallus gallus),not-interacting,no-int
+TCAL_02504,NTHL1 Endonuclease III-like protein 1 (Bos taurus),not-interacting,no-int
+TCAL_05680,NUBPL Iron-sulfur protein NUBPL (Homo sapiens),not-interacting,no-int
+TCAL_00446,"nudt19 Nucleoside diphosphate-linked moiety X motif 19, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_00037,NUDT2 Bis(5'-nucleosyl)-tetraphosphatase [asymmetrical] (Sus scrofa),not-interacting,no-int
+TCAL_02495,"NUDT9 ADP-ribose pyrophosphatase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_06541,Nurf-38 Inorganic pyrophosphatase (Drosophila melanogaster),not-interacting,no-int
+TCAL_01538,Nvl Nuclear valosin-containing protein-like (Mus musculus),not-interacting,no-int
+TCAL_10027,"Oat Ornithine aminotransferase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_07032,"OGDH 2-oxoglutarate dehydrogenase, mitochondrial (Macaca fascicularis)",not-interacting,no-int
+TCAL_08371,"oma1 Metalloendopeptidase OMA1, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_12157,"OPA1 Dynamin-like 120 kDa protein, mitochondrial (Gallus gallus)",not-interacting,no-int
+TCAL_01760,Oxa1l Mitochondrial inner membrane protein OXA1L (Mus musculus),not-interacting,no-int
+TCAL_09946,"Oxct1 Succinyl-CoA:3-ketoacid coenzyme A transferase 1, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_06408,"OXSM 3-oxoacyl-[acyl-carrier-protein] synthase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_03526,Pacrg Parkin coregulated gene protein homolog (Mus musculus),not-interacting,no-int
+TCAL_06388,pam16-b Mitochondrial import inner membrane translocase subunit tim16-B (Xenopus laevis),not-interacting,no-int
+TCAL_02774,"PARL Presenilins-associated rhomboid-like protein, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_09981,"PC Pyruvate carboxylase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_10366,"pcca-1 Propionyl-CoA carboxylase alpha chain, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_11733,"PCCB Propionyl-CoA carboxylase beta chain, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_16541,"PDF Peptide deformylase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_07244,"Pdhb Pyruvate dehydrogenase E1 component subunit beta, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05603,"pdhk-2 Probable [pyruvate dehydrogenase (acetyl-transferring)] kinase, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_00193,"Pdk [Pyruvate dehydrogenase (acetyl-transferring)] kinase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_03474,"Pdk [Pyruvate dehydrogenase (acetyl-transferring)] kinase, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_06352,"PDP1 [Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 1, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_08188,"PDPR Pyruvate dehydrogenase phosphatase regulatory subunit, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_10396,"PDPR Pyruvate dehydrogenase phosphatase regulatory subunit, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_10425,PDSS1 Decaprenyl-diphosphate synthase subunit 1 (Homo sapiens),not-interacting,no-int
+TCAL_12303,Pdss2 Decaprenyl-diphosphate synthase subunit 2 (Rattus norvegicus),not-interacting,no-int
+TCAL_04880,"pgam5 Serine/threonine-protein phosphatase PGAM5, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_08925,PHB2 Prohibitin-2 (Bos taurus),not-interacting,no-int
+TCAL_03602,"Pink1 Serine/threonine-protein kinase PINK1, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_04183,PISD Phosphatidylserine decarboxylase proenzyme (Pongo abelii),not-interacting,no-int
+TCAL_08216,"pitrm1 Presequence protease, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_10714,Plip Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_00342,PMPCA Mitochondrial-processing peptidase subunit alpha (Bos taurus),not-interacting,no-int
+TCAL_11611,PMPCB Mitochondrial-processing peptidase subunit beta (Bos taurus),not-interacting,no-int
+TCAL_08455,"PNPT1 Polyribonucleotide nucleotidyltransferase 1, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_13739,"PNPT1 Polyribonucleotide nucleotidyltransferase 1, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_12747,POLDIP2 Polymerase delta-interacting protein 2 (Homo sapiens),not-interacting,no-int
+TCAL_04340,porin Voltage-dependent anion-selective channel (Drosophila melanogaster),not-interacting,no-int
+TCAL_11779,"ppl Glycine cleavage system H protein, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_02871,"ppm1k Protein phosphatase 1K, mitochondrial (Xenopus laevis)",not-interacting,no-int
+TCAL_04149,Ppme1 Protein phosphatase methylesterase 1 (Mus musculus),not-interacting,no-int
+TCAL_00132,Ppox Protoporphyrinogen oxidase (Mus musculus),not-interacting,no-int
+TCAL_02450,Ppp1cc Serine/threonine-protein phosphatase PP1-gamma catalytic subunit (Rattus norvegicus),not-interacting,no-int
+TCAL_04502,"PRDX3 Thioredoxin-dependent peroxide reductase, mitochondrial (Pongo abelii)",not-interacting,no-int
+TCAL_01049,Prdx4 Peroxiredoxin-4 (Mus musculus),not-interacting,no-int
+TCAL_04298,"PRDX5 Peroxiredoxin-5, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_05522,"PRELID1 PRELI domain-containing protein 1, mitochondrial (Gallus gallus)",not-interacting,no-int
+TCAL_11280,"PRELID1 PRELI domain-containing protein 1, mitochondrial (Gallus gallus)",not-interacting,no-int
+TCAL_12880,PROSC Proline synthase co-transcribed bacterial homolog protein (Homo sapiens),not-interacting,no-int
+TCAL_04881,psen2 Presenilin-2 (Danio rerio),not-interacting,no-int
+TCAL_07477,"PTCD1 Pentatricopeptide repeat-containing protein 1, mitochondrial (Pongo abelii)",not-interacting,no-int
+#N/A,Ptges2 Prostaglandin E synthase 2 (Mus musculus),not-interacting,no-int
+TCAL_01460,"PYCR1 Pyrroline-5-carboxylate reductase 1, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_03251,"PYCR1 Pyrroline-5-carboxylate reductase 1, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_02224,QDPR Dihydropteridine reductase (Bos taurus),not-interacting,no-int
+TCAL_05147,Rab35 Ras-related protein Rab-35 (Rattus norvegicus),not-interacting,no-int
+TCAL_07957,RDH13 Retinol dehydrogenase 13 (Homo sapiens),not-interacting,no-int
+TCAL_00843,Rdh13 Retinol dehydrogenase 13 (Mus musculus),not-interacting,no-int
+TCAL_10111,"REXO2 Oligoribonuclease, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_04140,Rfk Riboflavin kinase (Mus musculus),not-interacting,no-int
+TCAL_00050,Rmnd1 Required for meiotic nuclear division protein 1 homolog (Mus musculus),not-interacting,no-int
+TCAL_13529,Rnaseh1 Ribonuclease H1 (Rattus norvegicus),not-interacting,no-int
+TCAL_02460,"Roe1 GrpE protein homolog, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_09760,romo1 Reactive oxygen species modulator 1 (Xenopus tropicalis),not-interacting,no-int
+TCAL_01417,RPUSD2 RNA pseudouridylate synthase domain-containing protein 2 (Homo sapiens),not-interacting,no-int
+TCAL_04816,Rpusd4 RNA pseudouridylate synthase domain-containing protein 4 (Rattus norvegicus),not-interacting,no-int
+TCAL_06359,"rtn4ip1 Reticulon-4-interacting protein 1 homolog, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_07823,"RTN4IP1 Reticulon-4-interacting protein 1, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_04535,"sad Cytochrome P450 315a1, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_06400,"sad Cytochrome P450 315a1, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_00986,Samm50 Sorting and assembly machinery component 50 homolog (Rattus norvegicus),not-interacting,no-int
+TCAL_05842,SCCPDH Saccharopine dehydrogenase-like oxidoreductase (Homo sapiens),not-interacting,no-int
+TCAL_06431,SCP2 Non-specific lipid-transfer protein (Oryctolagus cuniculus),not-interacting,no-int
+TCAL_09253,"SHMT1 Serine hydroxymethyltransferase, cytosolic (Ovis aries)",not-interacting,no-int
+TCAL_04503,"SHMT2 Serine hydroxymethyltransferase, mitochondrial (Oryctolagus cuniculus)",not-interacting,no-int
+TCAL_05189,sirt2:_NAD-dependent_protein_deacetylase_sirtuin-2_(Danio_rerio),not-interacting,no-int
+TCAL_08043,Sirt3 NAD-dependent protein deacetylase sirtuin-3 (Mus musculus),not-interacting,no-int
+TCAL_00465,"sirt5 NAD-dependent protein deacylase sirtuin-5, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_02261,"SJCHGC01960 10 kDa heat shock protein, mitochondrial (Schistosoma japonicum)",not-interacting,no-int
+TCAL_05721,"SLC25A1 Tricarboxylate transport protein, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_02511,SLC25A10 Mitochondrial dicarboxylate carrier (Homo sapiens),not-interacting,no-int
+TCAL_07375,SLC25A11 Mitochondrial 2-oxoglutarate/malate carrier protein (Homo sapiens),not-interacting,no-int
+TCAL_03814,SLC25A15 Mitochondrial ornithine transporter 1 (Homo sapiens),not-interacting,no-int
+TCAL_04952,Slc25a15 Mitochondrial ornithine transporter 1 (Mus musculus),not-interacting,no-int
+TCAL_02897,Slc25a16 Graves disease carrier protein homolog (Mus musculus),not-interacting,no-int
+TCAL_00045,SLC25A19 Mitochondrial thiamine pyrophosphate carrier (Bos taurus),not-interacting,no-int
+TCAL_08055,Slc25a20 Mitochondrial carnitine/acylcarnitine carrier protein (Mus musculus),not-interacting,no-int
+TCAL_13127,Slc25a20 Mitochondrial carnitine/acylcarnitine carrier protein (Mus musculus),not-interacting,no-int
+TCAL_12821,Slc25a21 Mitochondrial 2-oxodicarboxylate carrier (Rattus norvegicus),not-interacting,no-int
+TCAL_07726,SLC25A22 Mitochondrial glutamate carrier 1 (Homo sapiens),not-interacting,no-int
+TCAL_15172,slc25a24-b Calcium-binding mitochondrial carrier protein SCaMC-1-B (Xenopus laevis),not-interacting,no-int
+TCAL_07966,SLC25A25 Calcium-binding mitochondrial carrier protein SCaMC-2 (Homo sapiens),not-interacting,no-int
+TCAL_03629,Slc25a26 S-adenosylmethionine mitochondrial carrier protein (Mus musculus),not-interacting,no-int
+TCAL_01875,SLC25A27 Mitochondrial uncoupling protein 4 (Homo sapiens),not-interacting,no-int
+TCAL_12848,SLC25A29 Mitochondrial carnitine/acylcarnitine carrier protein CACL (Bos taurus),not-interacting,no-int
+TCAL_00279,"Slc25a3 Phosphate carrier protein, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_01360,Slc25a32 Mitochondrial folate transporter/carrier (Mus musculus),not-interacting,no-int
+TCAL_05380,Slc25a32 Mitochondrial folate transporter/carrier (Mus musculus),not-interacting,no-int
+TCAL_02668,slc25a37 Mitoferrin-1 (Danio rerio),not-interacting,no-int
+TCAL_06080,SLC25A4 ADP/ATP translocase 1 (Oryctolagus cuniculus),not-interacting,no-int
+TCAL_03052,slc25a42 Mitochondrial coenzyme A transporter SLC25A42 (Xenopus laevis),not-interacting,no-int
+TCAL_07651,"Slc8b1 Sodium/potassium/calcium exchanger 6, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_08307,slc9b2 Mitochondrial sodium/hydrogen exchanger 9B2 (Xenopus tropicalis),not-interacting,no-int
+TCAL_09414,"slgA Proline dehydrogenase 1, mitochondrial (Drosophila melanogaster)",not-interacting,no-int
+TCAL_03501,"Sod2 Superoxide dismutase [Mn], mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_05578,"SPAC4H3.07c Putative thiosulfate sulfurtransferase, mitochondrial (Schizosaccharomyces pombe (strain 972 / ATCC 24843))",not-interacting,no-int
+TCAL_06152,"SPAC4H3.07c Putative thiosulfate sulfurtransferase, mitochondrial (Schizosaccharomyces pombe (strain 972 / ATCC 24843))",not-interacting,no-int
+TCAL_00271,SPG7 Paraplegin (Homo sapiens),not-interacting,no-int
+TCAL_11917,"SQOR Sulfide:quinone oxidoreductase, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_11477,"STAR Steroidogenic acute regulatory protein, mitochondrial (Ovis aries)",not-interacting,no-int
+TCAL_12158,STARD3 StAR-related lipid transfer protein 3 (Homo sapiens),not-interacting,no-int
+TCAL_10131,"STARD7 StAR-related lipid transfer protein 7, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_11140,"STOML2 Stomatin-like protein 2, mitochondrial (Homo sapiens)",not-interacting,no-int
+TCAL_08021,"Sucla2 Succinyl-CoA ligase [ADP-forming] subunit beta, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_06378,"Suclg1 Succinyl-CoA ligase [ADP/GDP-forming] subunit alpha, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_06968,"Suclg2 Succinate--CoA ligase [GDP-forming] subunit beta, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05566,SUGCT Succinate--hydroxymethylglutarate CoA-transferase (Homo sapiens),not-interacting,no-int
+TCAL_00782,SURF1 Surfeit locus protein 1 (Homo sapiens),not-interacting,no-int
+TCAL_03862,"T05H10.6 Probable pyruvate dehydrogenase E1 component subunit alpha, mitochondrial (Caenorhabditis elegans)",not-interacting,no-int
+TCAL_05673,tamm41 Mitochondrial translocator assembly and maintenance protein 41 homolog (Xenopus laevis),not-interacting,no-int
+TCAL_05316,"TCAIM T-cell activation inhibitor, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_01762,"TDH L-threonine 3-dehydrogenase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_13017,Tim10 Mitochondrial import inner membrane translocase subunit Tim10 (Drosophila melanogaster),not-interacting,no-int
+TCAL_04068,Tim13 Mitochondrial import inner membrane translocase subunit Tim13 (Drosophila melanogaster),not-interacting,no-int
+TCAL_00463,Tim14 Mitochondrial import inner membrane translocase subunit TIM14 (Drosophila melanogaster),not-interacting,no-int
+TCAL_13330,Tim14 Mitochondrial import inner membrane translocase subunit TIM14 (Drosophila melanogaster),not-interacting,no-int
+TCAL_12750,Timm17b Mitochondrial import inner membrane translocase subunit Tim17-B (Mus musculus),not-interacting,no-int
+TCAL_13304,timm21 Mitochondrial import inner membrane translocase subunit Tim21 (Xenopus laevis),not-interacting,no-int
+TCAL_09993,timm23 Mitochondrial import inner membrane translocase subunit Tim23 (Danio rerio),not-interacting,no-int
+TCAL_09248,Timm44 Mitochondrial import inner membrane translocase subunit TIM44 (Mus musculus),not-interacting,no-int
+TCAL_11683,timm8a Mitochondrial import inner membrane translocase subunit Tim8 A (Danio rerio),not-interacting,no-int
+TCAL_00422,tin-9.1 Mitochondrial import inner membrane translocase subunit Tim9 (Caenorhabditis briggsae),not-interacting,no-int
+TCAL_12764,TMEM65 Transmembrane protein 65 (Bos taurus),not-interacting,no-int
+TCAL_01802,"TMLHE Trimethyllysine dioxygenase, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_01662,Tom40 Mitochondrial import receptor subunit TOM40 homolog 1 (Drosophila melanogaster),not-interacting,no-int
+TCAL_08123,tomm20 Mitochondrial import receptor subunit TOM20 homolog (Xenopus tropicalis),not-interacting,no-int
+TCAL_00648,Tomm22 Mitochondrial import receptor subunit TOM22 homolog (Mus musculus),not-interacting,no-int
+TCAL_12222,TOMM70A Mitochondrial import receptor subunit TOM70 (Homo sapiens),not-interacting,no-int
+TCAL_01757,"Trap1 Heat shock protein 75 kDa, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_08696,Trmt1 tRNA (guanine(26)-N(2))-dimethyltransferase (Mus musculus),not-interacting,no-int
+TCAL_07517,trmt10c Mitochondrial ribonuclease P protein 1 homolog (Drosophila melanogaster),not-interacting,no-int
+TCAL_02259,"Trnt1 CCA tRNA nucleotidyltransferase 1, mitochondrial (Mus musculus)",not-interacting,no-int
+TCAL_05761,"ttc19 Tetratricopeptide repeat protein 19, mitochondrial (Danio rerio)",not-interacting,no-int
+TCAL_08584,ttm50 Mitochondrial import inner membrane translocase subunit TIM50-C (Drosophila melanogaster),not-interacting,no-int
+TCAL_00665,Tusc3 Tumor suppressor candidate 3 (Mus musculus),not-interacting,no-int
+TCAL_00512,"TXN2 Thioredoxin, mitochondrial (Bos taurus)",not-interacting,no-int
+TCAL_12392,UBA1 Ubiquitin-like modifier-activating enzyme 1 (Oryctolagus cuniculus),not-interacting,no-int
+TCAL_05707,"Ubiquinone biosynthesis protein COQ4 homolog, mitochondrial (Bombyx mori)",not-interacting,no-int
+TCAL_03322,UCP2 Mitochondrial uncoupling protein 2 (Sus scrofa),not-interacting,no-int
+TCAL_03111,"Uncharacterized protein C2orf47 homolog, mitochondrial (Rattus norvegicus)",not-interacting,no-int
+TCAL_11079,"v1g172254 L-2-hydroxyglutarate dehydrogenase, mitochondrial (Nematostella vectensis)",not-interacting,no-int
+TCAL_09289,Xpnpep3 Probable Xaa-Pro aminopeptidase 3 (Rattus norvegicus),not-interacting,no-int
+TCAL_13064,ymel-1 ATP-dependent zinc metalloprotease YME1 homolog (Caenorhabditis elegans),not-interacting,no-int
+TCAL_01724,"sdha Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial (Danio rerio)",not-interacting,OXPHOS Comp-II
+TCAL_08938,"SdhB Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial (Drosophila melanogaster)",not-interacting,OXPHOS Comp-II
+TCAL_04388,"SDHC Succinate dehydrogenase cytochrome b560 subunit, mitochondrial (Cricetulus griseus)",not-interacting,OXPHOS Comp-II
+TCAL_11561,"SdhD Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial (Drosophila melanogaster)",not-interacting,OXPHOS Comp-II
+TCAL_06889,"MRPL58 Peptidyl-tRNA hydrolase ICT1, mitochondrial (Bos taurus)",not-interacting,translation factor
