@@ -1,1 +1,3 @@
 Here you will find the main R script used in the RNA-seq analysis along with all dependent .csv or .txt files to be read into R when using the script. 
+
+The featureCounts text files should be nested in their own folder where the R script can read them in without other conflicting files with the same extension. 
