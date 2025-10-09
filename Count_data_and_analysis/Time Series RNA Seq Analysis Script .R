@@ -1,14 +1,14 @@
 #Hypoxia Time Series RNA Seq Analysis
 #Matthew J. Powers
-#Last edited 11-06-24
+#Last edited 09-30-25
 #Built on R version 4.3.3 "Angel Food Cake"
-#Also tested on R version 4.4.0 "Puppy Cup"
+#Also tested on R version 4.5.1 "Great Square Root"
 
 
 #Gene expression and GO analysis packages installed using BiocManager::install("packagename")
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install(version = "3.20")
+# if (!require("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install(version = "3.20") # Use 3.21 with R v 4.5.1 or newer
 
 
 library(remotes) #To install packages from github using 'install_github' function as below
@@ -24,6 +24,9 @@ library(DESeq2) #Load DESeq2
 library(edgeR) #Load edgeR
 library(maSigPro) #Load maSigPro to analyze expression data over time course
 library(mclust) #To use Mclust method with maSigPro
+library(cluster)       # silhouette
+library(factoextra)    # fviz_nbclust, clustering validation plots
+library(fpc) # To validate cluster choices
 
 #Batch effect correction
 library(sva) #Also loads ComBat-seq for batch correction 
@@ -215,16 +218,16 @@ theme_set(theme_cowplot())
     
     str(hypoxia.sigs$sig.genes$Group$edesign) #check coding
     
-  #Cluster genes in k clusters and save to object sigs.clust
+#### Cluster genes in k clusters and save to object sigs.clust
     sigs.clust <- see.genes(hypoxia.sigs$sig.genes$Group, show.fit =T, dis = hypoxia.design$dis, 
-              cluster.method="hclust" ,cluster.data = 1, distance = "cor")
+              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k = 11)
   
   
   #Output to pdf
-    pdf(file='maSigPro hypoxia single series data gene clusters.pdf', width = 9, height = 8)
-    see.genes(hypoxia.sigs$sig.genes$Group, show.fit =T, dis = hypoxia.design$dis, 
-              cluster.method="hclust" ,cluster.data = 1, distance = "cor")
-    dev.off()
+    # pdf(file='maSigPro hypoxia single series data gene clusters.pdf', width = 9, height = 8)
+    see.genes(hypoxia.sigs$sig.genes$Group, show.fit =T, dis = hypoxia.design$dis,
+              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k =11)
+    # dev.off()
   
   
   #Isolate sig genes clusters in a data frame
@@ -232,7 +235,7 @@ theme_set(theme_cowplot())
    sig.gene.clusters$genes <- row.names(sig.gene.clusters)
    names(sig.gene.clusters)[1] <- "clusters"
   #Export clusters
-    write.csv(sigs.clust$cut, file = "Clustered_genes_maSigPro.csv")
+    # write.csv(sigs.clust$cut, file = "Clustered_genes_maSigPro.csv")
   
   
   # Make matrix with the significant genes and their expression values
@@ -253,20 +256,11 @@ theme_set(theme_cowplot())
     sigs.masigpro.names.cluster7 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "7",])
     sigs.masigpro.names.cluster8 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "8",])
     sigs.masigpro.names.cluster9 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "9",])
+    sigs.masigpro.names.cluster10 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "10",])
+    sigs.masigpro.names.cluster11 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "11",])
     
   # Add gene name to its own column for indexing later. Will ignore it in melting step below. 
     sigs.masigpro$Gene <- row.names(sigs.masigpro)
-    
-    
-          # # Combine clusters 6 and 7
-          #   #Recode clusters as factor
-          #     sigs.masigpro$clusters <- as.factor(sigs.masigpro$clusters)
-          #   # Rename them to be the same
-          #     sigs.masigpro %>% 
-          #      mutate(clusters = fct_recode(clusters,"67" = "6",
-          #                                  "67" = "7")) -> sigs.masigpro
-          # #Save gene names to vector for combined clusters 6 and 7  
-          #     sigs.masigpro.names.cluster67 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "67",])
   
   
   #Send coefficients and p-values to a single data frame in case we need it for later
@@ -275,19 +269,11 @@ theme_set(theme_cowplot())
     
   # Assign cluster groupings from clusters data frame  
     sigs.masigpro.pvalues.and.betas$clusters <- sig.gene.clusters$clusters
-    
-              # # Combine clusters 6 and 7
-              #   #Recode clusters as factor
-              #   sigs.masigpro.pvalues.and.betas$clusters <- as.factor(sigs.masigpro.pvalues.and.betas$clusters)
-              #   # Rename them to be the same
-              #   sigs.masigpro.pvalues.and.betas %>% 
-              #     mutate(clusters = fct_recode(clusters,"67" = "6",
-              #                                  "67" = "7")) -> sigs.masigpro.pvalues.and.betas
   
-  #Write the sig genes expression profiles to a csv
-    write.csv(sigs.masigpro, file = "Sig_genes_maSigPro_expression_profiles.csv", row.names = FALSE)
-  #Write the sig genes pvalues and coefficients to a csv
-    write.csv(sigs.masigpro.pvalues.and.betas, file = "Sig_genes_maSigPro_pvalues_and_coefficients.csv", row.names = FALSE)
+  # #Write the sig genes expression profiles to a csv
+  #   write.csv(sigs.masigpro, file = "Sig_genes_maSigPro_expression_profiles.csv", row.names = FALSE)
+  # #Write the sig genes pvalues and coefficients to a csv
+  #   write.csv(sigs.masigpro.pvalues.and.betas, file = "Sig_genes_maSigPro_pvalues_and_coefficients.csv", row.names = FALSE)
   
   #Make melted data frame for plotting
     sigs.masigpro.melt <- sigs.masigpro[, -c(32)] #Leave off last column
@@ -304,7 +290,6 @@ theme_set(theme_cowplot())
   
     sigs.masigpro.melt$gene.rep <- paste(sigs.masigpro.melt$genes,sigs.masigpro.melt$replicate)
   
-
   
 #Replicate summary
   sigs.averaged <- sigs.masigpro.melt |>
@@ -326,8 +311,8 @@ theme_set(theme_cowplot())
                               "Anoxia" = "A",
                               "Recovery" = "R")) -> sigs.averaged
     
-  #Write to csv
-    write.csv(sigs.averaged, file = "Data average example maSigPro.csv", row.names = FALSE)
+  # #Write to csv
+  #   write.csv(sigs.averaged, file = "Data average example maSigPro.csv", row.names = FALSE)
 
 
 #Plot expression levels of significant genes across time points for each of five clusters 
@@ -338,14 +323,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(300, 550, by = 50), limits = c(300, 550))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 550, label = "n = 182 genes", size = 4)+
-        ggtitle("Cluster 1")
+        #annotate("text", 2, 550, label = "n = 182 genes", size = 4)+
+        ggtitle("Cluster 1: n=182 genes")
       
       expression.curve.avgs.clust.1
       
@@ -356,14 +341,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(600, 1400, by = 100), limits = c(600, 1450))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1400, label = "n = 264 genes", size = 4)+
-        ggtitle("Cluster 2")
+        #annotate("text", 2, 1400, label = "n = 264 genes", size = 4)+
+        ggtitle("Cluster 2: n=162 genes")
       
       expression.curve.avgs.clust.2
       
@@ -374,14 +359,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(500, 1100, by = 100), limits = c(500, 1150))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1100, label = "n = 65 genes", size = 4)+
-        ggtitle("Cluster 3")
+        #annotate("text", 2, 1100, label = "n = 65 genes", size = 4)+
+        ggtitle("Cluster 3: n=65 genes")
       
       expression.curve.avgs.clust.3
       
@@ -392,14 +377,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(225, 350, by = 25), limits = c(225, 350))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 350, label = "n = 156 genes", size = 4)+
-        ggtitle("Cluster 4")
+        #annotate("text", 2, 350, label = "n = 156 genes", size = 4)+
+        ggtitle("Cluster 4: n=102 genes")
       
       expression.curve.avgs.clust.4
       
@@ -410,14 +395,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(200, 350, by = 50), limits = c(180, 350))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 350, label = "n = 125 genes", size = 4)+
-        ggtitle("Cluster 5")
+        #annotate("text", 2, 350, label = "n = 125 genes", size = 4)+
+        ggtitle("Cluster 5: n=156 genes")
       
       expression.curve.avgs.clust.5
       
@@ -428,14 +413,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(1000, 1900, by = 100), limits = c(1000, 1900))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1900, label = "n = 164 genes", size = 4)+
-        ggtitle("Cluster 6")
+        #annotate("text", 2, 1900, label = "n = 164 genes", size = 4)+
+        ggtitle("Cluster 6: n=125 genes")
 
       expression.curve.avgs.clust.6
 
@@ -446,14 +431,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(700, 1500, by = 100), limits = c(700, 1500))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1500, label = "n = 99 genes", size = 4)+
-        ggtitle("Cluster 7")
+        #annotate("text", 2, 1500, label = "n = 99 genes", size = 4)+
+        ggtitle("Cluster 7: n=164 genes")
 
       expression.curve.avgs.clust.7
       
@@ -464,14 +449,14 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(1000, 1600, by = 100), limits = c(990, 1600))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1600, label = "n = 236 genes", size = 4)+
-        ggtitle("Cluster 8")
+        #annotate("text", 2, 1600, label = "n = 236 genes", size = 4)+
+        ggtitle("Cluster 8: n=99 genes")
       
       expression.curve.avgs.clust.8
       
@@ -482,34 +467,52 @@ theme_set(theme_cowplot())
         geom_point(size = 5)+
         geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
         #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression", breaks = seq(400, 1400, by = 200), limits = c(400, 1400))+
+        scale_y_continuous(name="Normalized Expression")+
         scale_x_discrete(name="Time Points")+
         theme(axis.text.x = element_text(size = 9),
               axis.title = element_text(size = 13),
               axis.text.y = element_text(size=10),
               legend.position = "bottom", legend.direction = "horizontal")+
-        annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
-        ggtitle("Cluster 9")
+        #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
+        ggtitle("Cluster 9: n=149 genes")
       
       expression.curve.avgs.clust.9
-      # 
-      # expression.curve.avgs.clust.67 <- sigs.averaged |>
-      #   filter(clusters == "67") |>
-      #   ggplot(aes(x=time, y=mean_exp)) +
-      #   geom_line(aes(group=clusters), linewidth=2, alpha=1)+
-      #   geom_point(size = 5)+
-      #   geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
-      #   #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-      #   scale_y_continuous(name="Normalized Expression", breaks = seq(1100, 2100, by = 125), limits = c(1100, 2100))+
-      #   scale_x_discrete(name="Time Points")+
-      #   theme(axis.text.x = element_text(size = 9),
-      #         axis.title = element_text(size = 13),
-      #         axis.text.y = element_text(size=10),
-      #         legend.position = "bottom", legend.direction = "horizontal")+
-      #   annotate("text", 2, 1200, label = "n = 243 genes", size = 4)+
-      #   ggtitle("Cluster 6")
-      # 
-      # expression.curve.avgs.clust.67
+      
+      expression.curve.avgs.clust.10 <- sigs.averaged |>
+        filter(clusters == 10) |>
+        ggplot(aes(x=time, y=mean_exp)) +
+        geom_line(aes(group=clusters), linewidth=2, alpha=1)+
+        geom_point(size = 5)+
+        geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
+        #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
+        scale_y_continuous(name="Normalized Expression")+
+        scale_x_discrete(name="Time Points")+
+        theme(axis.text.x = element_text(size = 9),
+              axis.title = element_text(size = 13),
+              axis.text.y = element_text(size=10),
+              legend.position = "bottom", legend.direction = "horizontal")+
+        #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
+        ggtitle("Cluster 10: n=87 genes")
+      
+      expression.curve.avgs.clust.10
+      
+      expression.curve.avgs.clust.11 <- sigs.averaged |>
+        filter(clusters == 11) |>
+        ggplot(aes(x=time, y=mean_exp)) +
+        geom_line(aes(group=clusters), linewidth=2, alpha=1)+
+        geom_point(size = 5)+
+        geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
+        #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
+        scale_y_continuous(name="Normalized Expression")+
+        scale_x_discrete(name="Time Points")+
+        theme(axis.text.x = element_text(size = 9),
+              axis.title = element_text(size = 13),
+              axis.text.y = element_text(size=10),
+              legend.position = "bottom", legend.direction = "horizontal")+
+        #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
+        ggtitle("Cluster 11: n=56")
+      
+      expression.curve.avgs.clust.11
   
       
     #Export cluster plots as combined figure
@@ -520,11 +523,42 @@ theme_set(theme_cowplot())
         plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
       dev.off()
       
-    # #Export just 6 and 7 cluster plots as combined figure for reference before combining 
-    #   jpeg(filename = "maSigPro cluster patterns 6 and 7.jpg", width = 9, height = 5, units = "in", res = 300)
-    #   expression.curve.avgs.clust.6 + expression.curve.avgs.clust.7 +
-    #     plot_layout(ncol = 2, nrow = 1) + plot_annotation(tag_levels = 'A')
-    #   dev.off()
+      jpeg(filename = "maSigPro cluster patterns 8 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
+      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + 
+        plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
+      dev.off()
+      
+      jpeg(filename = "maSigPro cluster patterns 7 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
+      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+        expression.curve.avgs.clust.7 + 
+        plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
+      dev.off()
+      
+      jpeg(filename = "maSigPro cluster patterns 6 clusters.jpg", width = 13, height = 8, units = "in", res = 300)
+      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+        plot_layout(ncol = 3, nrow = 2) + plot_annotation(tag_levels = 'A')
+      dev.off()
+      
+      jpeg(filename = "maSigPro cluster patterns 10 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
+      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
+        expression.curve.avgs.clust.10 +
+        plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
+      dev.off()
+      
+      jpeg(filename = "maSigPro cluster patterns 11 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
+      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
+        expression.curve.avgs.clust.10 + expression.curve.avgs.clust.11 +
+        plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
+      dev.off()
+   
       
     # Generate heat map of genes
       #Make color palette for plotting
@@ -567,6 +601,156 @@ theme_set(theme_cowplot())
         jpeg(filename = "maSigPro clusters heatmap.jpg", width = 5, height = 7, units = "in", res = 600)
         clusters.heatmap
         dev.off()
+        
+## Cluster # validation on 6 through 11 clusters
+        
+    # Prepare data
+    # Assume expr_mat is your replicate-level matrix
+     expr_mat <- hypoxia.sigs$sig.genes$Group$sig.profiles  
+    
+    # Make a condition label for each column (strip "_1", "_2", etc.)
+     sample_groups <- gsub("_[0-9]+$", "", colnames(expr_mat))
+    
+    # Collapse replicates by taking row means
+      expr_avg <- sapply(unique(sample_groups), function(grp) {
+        rowMeans(expr_mat[, sample_groups == grp, drop = FALSE])
+      })
+    
+    # Scale for clustering
+      expr_scaled <- scale(expr_avg)
+        
+    ks <- 6:11 # Cluster numbers to test
+    
+  # WSS (Elbow method)
+    wss <- sapply(ks, function(k) {
+      kmeans(expr_scaled, centers = k, nstart = 25)$tot.withinss
+    })
+    
+  # Heuristic: choose k where % reduction in WSS drops the most ("elbow")
+  # Compute relative reduction in WSS
+    rel_diff <- diff(wss) / wss[-length(wss)]
+    best_k_wss <- ks[which.min(rel_diff) + 1]  # +1 because diff reduces length by 1
+    
+    df_wss <- data.frame(k = ks, WSS = wss)
+    
+  # STEP 2: Silhouette
+    avg_sil <- sapply(ks, function(k) {
+      km <- kmeans(expr_scaled, centers = k, nstart = 25)
+      sil <- silhouette(km$cluster, dist(expr_scaled))
+      mean(sil[, 3])
+    })
+    best_k_sil <- ks[which.max(avg_sil)]
+    df_sil <- data.frame(k = ks, avg_sil = avg_sil)
+    
+  # STEP 3: Gap statistic
+    set.seed(123)
+    gap_stat <- clusGap(expr_scaled, FUN = kmeans, K.max = max(ks),
+                        B = 50, nstart = 25)
+    gap_df <- data.frame(
+      k = ks,
+      gap = gap_stat$Tab[ks, "gap"],
+      SE.sim = gap_stat$Tab[ks, "SE.sim"]
+    )
+    best_k_gap <- ks[which.max(gap_df$gap)]
+    
+  # STEP 4: Plotting
+  # WSS
+    wss.plot <- ggplot(df_wss, aes(x = k, y = WSS)) +
+      geom_line() + geom_point(size = 3) +
+      geom_vline(xintercept = best_k_wss, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(100, 500), breaks = seq(100, 500, by =100))+
+      ylab("Within-cluster SS") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Elbow plot (best k = ", best_k_wss, ")"))
+    wss.plot
+    
+  # Silhouette
+    silhouette.plot <- ggplot(df_sil, aes(x = k, y = avg_sil)) +
+      geom_line() + geom_point(size = 3) +
+      geom_vline(xintercept = best_k_sil, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(0.55, 0.8), breaks = seq(0.55, 0.8, by =0.05))+
+      ylab("Average silhouette width") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Silhouette method (best k = ", best_k_sil, ")"))
+    silhouette.plot
+    
+  # Gap statistic
+    gap.plot <- ggplot(gap_df, aes(x = k, y = gap)) +
+      geom_line() + geom_point(size = 3) +
+      geom_errorbar(aes(ymin = gap - SE.sim, ymax = gap + SE.sim), width = 0.2) +
+      geom_vline(xintercept = best_k_gap, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(2.8, 3.3), breaks = seq(2.8, 3.3, by =0.1))+
+      ylab("Gap statistic") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Gap statistic (best k = ", best_k_gap, ")"))
+    gap.plot
+    
+  # Combine plots vertically
+    combined_plot <- wss.plot / silhouette.plot / gap.plot
+    combined_plot
+    
+  # export plots
+    jpeg(filename = "Clustering statistics.jpg", width = 5, height = 8, units = "in", res = 300)
+    combined_plot
+    dev.off()
+    
+  # Combine all metrics into one normalized plot
+  # Highlight were our choice of 9 clusters falls. 
+  # Normalize metrics to a 0–1 scale for overlay
+    df_combined <- df_wss %>%
+      left_join(df_sil, by = "k") %>%
+      left_join(gap_df %>% select(k, gap), by = "k") %>%
+      # Normalize all metrics to the same 0–1 scale for plotting
+      mutate(
+        WSS_norm = rescale(WSS, to = c(0, 1)), # Scale WSS so that min=0, max=1
+        Silhouette_norm = rescale(avg_sil, to = c(0, 1)), # Scale silhouette similarly
+        Gap_norm = rescale(gap, to = c(0, 1)) # Scale Gap statistic similarly
+      ) %>%
+      select(k, WSS_norm, Silhouette_norm, Gap_norm) %>% # Keep only normalized metrics + k
+      pivot_longer(cols = -k, names_to = "Metric", values_to = "Value")
+    
+  # Overlay plot
+    combined_overlay <- ggplot(df_combined, aes(x = k, y = Value, color = Metric)) +
+      geom_line(size = 1.2) +
+      geom_point(size = 3) +
+      geom_vline(xintercept = 9, linetype = "dashed", color = "black") +  # your chosen k
+      scale_x_continuous(breaks = ks) +
+      ylab("Normalized value") + xlab("Number of clusters (k)") +
+      ggtitle("Cluster validation metrics (WSS, Silhouette, Gap) for k=6–11") +
+      theme(legend.position = "top") +
+      annotate("text", x = 9.5, y = 1.05, label = "Chosen k=9", vjust = -0.5)
+    
+    combined_overlay
+    
+    # export plot
+    jpeg(filename = "Clustering statistics combined overlay.jpg", width = 9, height = 7, units = "in", res = 300)
+    combined_overlay
+    dev.off()
+        
+        
+  # Run stability analysis for k = 9 since it is compromise between 6 and 11
+    clust_stability <- clusterboot(expr_scaled, 
+                                   B = 100,         # number of bootstrap resamples
+                                   clustermethod = kmeansCBI,
+                                   k = 9, 
+                                   seed = 123,
+                                   count = FALSE)
+    
+  # Inspect results
+    clust_stability$bootmean   # mean stability per cluster
+    clust_stability$bootbrd    # how often clusters dissolved      
+    
+    # Interpretation guide:
+    # > 0.85 → highly stable (rock solid).
+    # 0.70–0.85 → reasonably stable.
+    # 0.60–0.70 → borderline, may not be reliable.
+    # < 0.60 → weak cluster (not the case here).
+    # 
+    # In our results:
+    # Cluster 8 (0.922) = excellent, very stable.
+    # Clusters 2, 3, 7 = good stability (0.73–0.79).
+    # Clusters 1, 4, 5, 6, 9 = moderate/borderline (0.67–0.70).
+        
       
 ############################ Deseq2 ########################
     
@@ -2151,27 +2335,29 @@ theme_set(theme_cowplot())
         # Genes unique to hypoxia vs control
           combined_sigs[is.na(combined_sigs$padj_p_vs_c) & is.na(combined_sigs$padj_a_vs_c)
                         & is.na(combined_sigs$padj_r_vs_c) & is.na(combined_sigs$padj_a_vs_r)
-                        & !is.na(combined_sigs$padj_h_vs_c), 1] 
+                        & is.na(combined_sigs$padj_h_vs_a) & !is.na(combined_sigs$padj_h_vs_c), 1] 
           
-        # Genes unique to pcrit vs control
-          combined_sigs[is.na(combined_sigs$padj_h_vs_c) & is.na(combined_sigs$padj_a_vs_c)
+        # Genes unique to pcrit vs control AND NOT in maSigPro clusters either
+        # Save as object to query larger data frames for plotting and vizualization
+         combined_sigs[is.na(combined_sigs$padj_h_vs_c) & is.na(combined_sigs$padj_a_vs_c)
                         & is.na(combined_sigs$padj_r_vs_c) & is.na(combined_sigs$padj_a_vs_r)
+                        & is.na(combined_sigs$padj_h_vs_a) & is.na(combined_sigs$clusters_maSigPro)
                         & !is.na(combined_sigs$padj_p_vs_c), 1] 
           
         # Genes unique to anoxia vs control
           combined_sigs[is.na(combined_sigs$padj_p_vs_c) & is.na(combined_sigs$padj_h_vs_c)
                         & is.na(combined_sigs$padj_r_vs_c) & is.na(combined_sigs$padj_a_vs_r)
-                        & !is.na(combined_sigs$padj_a_vs_c), 1] 
+                        & is.na(combined_sigs$padj_h_vs_a) & !is.na(combined_sigs$padj_a_vs_c), 1] 
           
         # Genes unique to recovery vs control
           combined_sigs[is.na(combined_sigs$padj_p_vs_c) & is.na(combined_sigs$padj_a_vs_c)
                         & is.na(combined_sigs$padj_h_vs_c) & is.na(combined_sigs$padj_a_vs_r)
-                        & !is.na(combined_sigs$padj_r_vs_c), 1] 
+                        & is.na(combined_sigs$padj_h_vs_a) & !is.na(combined_sigs$padj_r_vs_c), 1] 
           
         # Genes unique to anoxia vs recovery
           combined_sigs[is.na(combined_sigs$padj_p_vs_c) & is.na(combined_sigs$padj_a_vs_c)
                         & is.na(combined_sigs$padj_r_vs_c) & is.na(combined_sigs$padj_h_vs_c)
-                        & !is.na(combined_sigs$padj_a_vs_r), 1]
+                        & is.na(combined_sigs$padj_h_vs_a) & !is.na(combined_sigs$padj_a_vs_r), 1]
           
         # Genes shared by anoxia vs recovery and hypoxia vs control
           combined_sigs[is.na(combined_sigs$padj_p_vs_c) & is.na(combined_sigs$padj_a_vs_c)
@@ -2312,9 +2498,9 @@ theme_set(theme_cowplot())
         
         #Plot individual genes
         # Generate expression plot   
-          jpeg(filename = "TCAL_17457 Gfpt1.jpg", width = 5, height = 4, units = "in", res = 300) 
+          jpeg(filename = "TCAL_11537 TIGAR.jpg", width = 5, height = 4, units = "in", res = 300) 
             expression.averaged |>
-              filter(Gene == "TCAL_09981") |>
+              filter(Gene == "TCAL_01384") |>
               ggplot(aes(x=time, y=mean_exp)) +
               geom_line(aes(group=Gene), linewidth=2, alpha=1)+
               geom_point(size = 5)+
@@ -2326,7 +2512,7 @@ theme_set(theme_cowplot())
                     axis.text.y = element_text(size=10),
                     legend.position = "bottom", legend.direction = "horizontal",
                     title = element_text(size = 13))+
-              ggtitle("TCAL_17457 Gfpt1")
+              ggtitle("")
             dev.off()
           
       # Pull gene names from GO terms in enrichment test
@@ -2373,6 +2559,7 @@ theme_set(theme_cowplot())
           combined_sigs[int.anox.recov, c(1:2)]
           combined_sigs[int.recov.cont, c(1:2)]
           combined_sigs[int.hypox.anox, c(1:2)]
+        
           
           
 ####   Functional analysis ####
@@ -2391,7 +2578,8 @@ theme_set(theme_cowplot())
           ddsNormScaled.melt$time<- factor(ddsNormScaled.melt$time,
                                      levels = c("C", "35","05", "A", "R"))
           ddsNormScaled.melt %>% 
-            mutate(time = fct_recode(time,"H" = "35",
+            mutate(time = fct_recode(time,"N" = "C",
+                                          "MH" = "35",
                                          "P" = "05")) -> ddsNormScaled.melt
           
           ddsNormScaled.melt$gene.rep <- paste(ddsNormScaled.melt$Gene, ddsNormScaled.melt$replicate)
@@ -2407,11 +2595,10 @@ theme_set(theme_cowplot())
             mutate(se_zscore = sd_zscore/sqrt(n)) 
           zscores.averaged$se_zscore <- round(zscores.averaged$se_zscore, 4) #Round se column to 2 digits
           
+          
+          
           write.csv(zscores.averaged, file = "zscores_averaged_by_time_point_ALL_GENES.csv", row.names = FALSE)
-          
-          
-      
-          
+        
           
     ### Pull out select genes based on desired groupings and plot zscores
           
@@ -2624,18 +2811,18 @@ theme_set(theme_cowplot())
      # Mito targeted genes
          
         # Read in data and reformat gene names to remove PA notation if present
-         mitos <- read.csv(file = "Mito-target_proteins_SDv2.2_noPA.csv", header = TRUE)
-         names(mitos)[1] <- "Gene"
+         mitos <- read.csv(file = "Mito-target_proteins_SDv2.2_June2025.csv", header = TRUE)
+         names(mitos)[c(1,2,4)] <- c("Gene", "Description", "Process")
          mitos$tip <- paste0(mitos$Gene,": ", mitos$Description)
-         mitos$Gene <-str_split_i(mitos$Gene, "-", 1)
+         mitos$Gene <-str_split_i(mitos$Gene, "-", 1) #Remove PA notation if present
          
         # Add coloring instructions for lines based on whether gene is in significant list
          mitos$sig <- NA
          for(i in 1:nrow(mitos)) {
            if (mitos[i,1] %in% combined_sigs$Gene) {
-             mitos[i,5] <- "sig"
+             mitos[i,6] <- "sig"
            } else {
-             mitos[i,5] <- "nonsig"
+             mitos[i,6] <- "nonsig"
            }
          }
          
@@ -4465,4 +4652,146 @@ theme_set(theme_cowplot())
       mitos.in.masigpro <- merge(mitos.in.masigpro, combined_sigs[,1:2], by = "Gene", all = FALSE)
       
       table(mitos.in.masigpro$clusters) #Tally genes in each cluster
+      
+      
+#### Probing genes that mostly responded at Pcrit ####
+      
+    # Genes unique to pcrit vs control AND NOT in maSigPro clusters either
+    # Save as object to query larger data frames for plotting and vizualization
+      pcrit.only <- combined_sigs[is.na(combined_sigs$padj_h_vs_c) & is.na(combined_sigs$padj_a_vs_c)
+                                  & is.na(combined_sigs$padj_r_vs_c) & is.na(combined_sigs$padj_a_vs_r)
+                                  & is.na(combined_sigs$padj_h_vs_a) & is.na(combined_sigs$clusters_maSigPro)
+                                  & !is.na(combined_sigs$padj_p_vs_c), 1] 
+      
+    # Pull out full gene data from combined_sigs frame
+      pcrit.only.full <- combined_sigs[combined_sigs$Gene %in% pcrit.only, c(1,2,7,8)]
+      
+    # Create tip for plotting 
+      pcrit.only.full$tip <- paste(pcrit.only.full$Gene, pcrit.only.full$Description)
+    # Make color labels for up and down genes 
+      pcrit.only.full$direction <- NA #Generate empty column
+      for(i in 1:nrow(pcrit.only.full)) {
+        if (pcrit.only.full[i,3] < 0) {
+          pcrit.only.full[i,6] <- "Down"
+        } else {
+          pcrit.only.full[i,6] <- "Up"
+        }
+      }
+      
+      #Export data
+        write.csv(pcrit.only.full, file = "Pcrit only genes.csv", row.names = FALSE)
+      
+      pcrit.only.plot <- merge(pcrit.only.full, zscores.averaged[zscores.averaged$Gene %in% pcrit.only, ],  by = "Gene", all = FALSE) |>
+        ggplot(aes(x=time, y=mean_zscore, group = Gene)) +
+        geom_line(aes(color = direction),linewidth=1)+
+        geom_point_interactive(aes(data_id = Gene, tooltip = tip), color = "grey20", size = 3)+
+        #geom_errorbar(aes(ymax = mean_zscore + se_zscore, ymin = mean_zscore - se_zscore), width=0.3) +
+        scale_y_continuous(name="Z-scores", breaks = seq(-2,2, by =0.4))+
+        scale_x_discrete(name="Time Points")+
+        theme(axis.text.x = element_text(size = 9),
+              axis.title = element_text(size = 11),
+              axis.text.y = element_text(size=9),
+              legend.position = "bottom", legend.direction = "horizontal",
+              title = element_text(size= 10))+
+        scale_color_manual(name = "Fold change direction:", values = c("dodgerblue", "firebrick"))+
+        ggtitle("Genes with a strong response at Pcrit only")
+      pcrit.only.plot
+      
+    # Export as jpeg
+      jpeg(filename = "Pcrit only genes time series line plots.jpg", width = 6, height = 5, units = "in", res = 300)
+      pcrit.only.plot
+      dev.off()
+      
+    # Generate interactive figure   
+      girafe(
+        ggobj = pcrit.only.plot,
+        options = list(opts_hover_inv(css = "opacity:0.1;stroke:yellow"), 
+                       opts_tooltip(offx =0, offy = -50, css = 'font-size:larger;background-color:#000000;color:white')
+        ),
+        height_svg = 5,
+        width_svg = 10
+      )
+      
+  # Do a top GO analysis on just the Pcrit only genes  
+    
+    #Make named vector with the gene universe where genes of interest are coded with a 1 so the 'new' function knows to focus on them. 
+      geneList.pcrit.only <- factor(as.integer(geneUniverse %in% pcrit.only)) 
+      names(geneList.pcrit.only) <- geneUniverse
+      
+    # We now have all data necessary to build an object of type topGOdata. This object will contain all gene
+    # identifiers and their scores, the GO annotations, the GO hierarchical structure and all other information
+    # needed to perform the desired enrichment analysis.
+      Pcrit_only_GO <- new("topGOdata", description = "Pcrit only genes", ontology = "BP", nodeSize = 10,
+                                  allGenes = geneList.pcrit.only, annot = annFUN.gene2GO, gene2GO = geneID2GO)
+      
+    # Once we have an object of class topGOdata we can start with the enrichment analysis.
+    # Run the classic fisher exact test to find enriched go terms
+      resultFisher.pcrit.only <- runTest(Pcrit_only_GO, algorithm = "weight01", statistic = "fisher")
+      
+      resultFisher.pcrit.only #View results summary
+      
+    # GenTable is an easy to use function for analysing the most significant GO terms and the corresponding p
+    # values.  
+    #Adjusted to look just at the classic fisher results since we have just counts
+      allRes.pcrit.only <- GenTable(Pcrit_only_GO, fisher = resultFisher.pcrit.only, 
+                                           ranksOf = "fisher", topNodes = 150, numChar = 500)
+      colnames(allRes.pcrit.only)[6] <- "p-value"
+      allRes.pcrit.only$`p-value` <- as.numeric(allRes.pcrit.only$`p-value`)
+      
+    # Filter nodes with pvalue greater than 0.05 
+      allRes.pcrit.only <- allRes.pcrit.only[allRes.pcrit.only$`p-value` < 0.05,]
+      
+      
+    #Extract names of significant genes in GenTable result. Add to column in allRes.pcrit.only
+      allRes.pcrit.only$genes <- sapply(allRes.pcrit.only$GO.ID, function(x)
+      {
+        genes<-genesInTerm(Pcrit_only_GO, x)
+        genes[[1]][genes[[1]] %in% sigs.masigpro.names.cluster1] # myGenes is the queried gene list
+      })
+      
+    # Create and export enrichment result as a formatted and interactable table
+      pcrit.only.table <- reactable(allRes.pcrit.only[,1:6], defaultPageSize = 150, theme = pff(centered = FALSE, font_color = "black"), 
+                                           wrap = FALSE, bordered = TRUE, compact = TRUE, striped = TRUE, highlight = TRUE, fullWidth = FALSE,
+                                           columns = list(Term = colDef(minWidth = 400),
+                                                          GO.ID = colDef(cell = pill_buttons(colors = "darkgreen"), minWidth = 120)
+                                           )
+      ) %>%
+      reactablefmtr::add_title("Pcrit only significant genes", font_size = 20) 
+      
+      
+      pcrit.only.table #View table
+      
+    #Save table as an html file
+      save_reactable_test(pcrit.only.table, "Pcrit only table.html")
+      
+    # investigate how the significant GO terms are distributed over the GO graph
+      jpeg(filename = "TopGO subgraph pcrit only.jpg", width = 10, height = 10, units = "in", res = 900)
+      par(cex = 0.9)
+      showSigOfNodes(Pcrit_only_GO, score(resultFisher.pcrit.only), firstSigNodes = 10, useInfo = 'all')
+      dev.off() 
+    
+    # rrvgo
+    # Cluster 1 from maSigPro
+     #Create sim matrix using method Wang since it is most recent and keytype GID since we dont have ENTREZIDs
+      simMatrix.pcritonly <- calculateSimMatrix(allRes.pcrit.only$GO.ID,
+                                               orgdb = Tcalif_orgdb_object,
+                                               ont="BP",
+                                               method="Wang", 
+                                               keytype = "GID")
+      
+    #Create groupings of reduced terms for easier visualization
+      reducedTerms.pcritonly <- reduceSimMatrix(simMatrix.pcritonly,
+                                               threshold=0.8,
+                                               orgdb=Tcalif_orgdb_object,
+                                               keytype = "GID")
+      
+    # Make scatter plot depicting groups and distance between terms  
+      jpeg(filename = "rrvgo scatter pcrit only.jpg", width = 16, height = 11, units = "in", res = 500)
+      scatterPlot(simMatrix.pcritonly, reducedTerms.pcritonly)
+      dev.off()
+      
+    # Make treemap of GO terms clustered under their parent terms
+      jpeg(filename = "rrvgo treemap pcrit only.jpg", width = 16, height = 11, units = "in", res = 500)
+      treemapPlot(reducedTerms.pcritonly)
+      dev.off()
       
