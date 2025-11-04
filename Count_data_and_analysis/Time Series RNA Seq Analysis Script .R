@@ -220,13 +220,13 @@ theme_set(theme_cowplot())
     
 #### Cluster genes in k clusters and save to object sigs.clust
     sigs.clust <- see.genes(hypoxia.sigs$sig.genes$Group, show.fit =T, dis = hypoxia.design$dis, 
-              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k = 11)
+              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k = 9)
   
   
   #Output to pdf
     # pdf(file='maSigPro hypoxia single series data gene clusters.pdf', width = 9, height = 8)
     see.genes(hypoxia.sigs$sig.genes$Group, show.fit =T, dis = hypoxia.design$dis,
-              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k =11)
+              cluster.method="hclust" ,cluster.data = 1, distance = "cor", k =9)
     # dev.off()
   
   
@@ -256,8 +256,8 @@ theme_set(theme_cowplot())
     sigs.masigpro.names.cluster7 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "7",])
     sigs.masigpro.names.cluster8 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "8",])
     sigs.masigpro.names.cluster9 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "9",])
-    sigs.masigpro.names.cluster10 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "10",])
-    sigs.masigpro.names.cluster11 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "11",])
+    # sigs.masigpro.names.cluster10 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "10",])
+    # sigs.masigpro.names.cluster11 <- row.names(sigs.masigpro[sigs.masigpro$clusters == "11",])
     
   # Add gene name to its own column for indexing later. Will ignore it in melting step below. 
     sigs.masigpro$Gene <- row.names(sigs.masigpro)
@@ -478,41 +478,41 @@ theme_set(theme_cowplot())
       
       expression.curve.avgs.clust.9
       
-      expression.curve.avgs.clust.10 <- sigs.averaged |>
-        filter(clusters == 10) |>
-        ggplot(aes(x=time, y=mean_exp)) +
-        geom_line(aes(group=clusters), linewidth=2, alpha=1)+
-        geom_point(size = 5)+
-        geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
-        #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression")+
-        scale_x_discrete(name="Time Points")+
-        theme(axis.text.x = element_text(size = 9),
-              axis.title = element_text(size = 13),
-              axis.text.y = element_text(size=10),
-              legend.position = "bottom", legend.direction = "horizontal")+
-        #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
-        ggtitle("Cluster 10: n=87 genes")
-      
-      expression.curve.avgs.clust.10
-      
-      expression.curve.avgs.clust.11 <- sigs.averaged |>
-        filter(clusters == 11) |>
-        ggplot(aes(x=time, y=mean_exp)) +
-        geom_line(aes(group=clusters), linewidth=2, alpha=1)+
-        geom_point(size = 5)+
-        geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
-        #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
-        scale_y_continuous(name="Normalized Expression")+
-        scale_x_discrete(name="Time Points")+
-        theme(axis.text.x = element_text(size = 9),
-              axis.title = element_text(size = 13),
-              axis.text.y = element_text(size=10),
-              legend.position = "bottom", legend.direction = "horizontal")+
-        #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
-        ggtitle("Cluster 11: n=56")
-      
-      expression.curve.avgs.clust.11
+      # expression.curve.avgs.clust.10 <- sigs.averaged |>
+      #   filter(clusters == 10) |>
+      #   ggplot(aes(x=time, y=mean_exp)) +
+      #   geom_line(aes(group=clusters), linewidth=2, alpha=1)+
+      #   geom_point(size = 5)+
+      #   geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
+      #   #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
+      #   scale_y_continuous(name="Normalized Expression")+
+      #   scale_x_discrete(name="Time Points")+
+      #   theme(axis.text.x = element_text(size = 9),
+      #         axis.title = element_text(size = 13),
+      #         axis.text.y = element_text(size=10),
+      #         legend.position = "bottom", legend.direction = "horizontal")+
+      #   #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
+      #   ggtitle("Cluster 10: n=87 genes")
+      # 
+      # expression.curve.avgs.clust.10
+      # 
+      # expression.curve.avgs.clust.11 <- sigs.averaged |>
+      #   filter(clusters == 11) |>
+      #   ggplot(aes(x=time, y=mean_exp)) +
+      #   geom_line(aes(group=clusters), linewidth=2, alpha=1)+
+      #   geom_point(size = 5)+
+      #   geom_errorbar(aes(ymax = mean_exp + se_exp, ymin = mean_exp - se_exp), width=0.3) +
+      #   #geom_label_repel(data = subset(sigs.averaged, time == "A"), aes(label=genes), nudge_x = 2, max.overlaps = 20, size = 3)+
+      #   scale_y_continuous(name="Normalized Expression")+
+      #   scale_x_discrete(name="Time Points")+
+      #   theme(axis.text.x = element_text(size = 9),
+      #         axis.title = element_text(size = 13),
+      #         axis.text.y = element_text(size=10),
+      #         legend.position = "bottom", legend.direction = "horizontal")+
+      #   #annotate("text", 2, 1400, label = "n = 56 genes", size = 4)+
+      #   ggtitle("Cluster 11: n=56")
+      # 
+      # expression.curve.avgs.clust.11
   
       
     #Export cluster plots as combined figure
@@ -523,40 +523,40 @@ theme_set(theme_cowplot())
         plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
       dev.off()
       
-      jpeg(filename = "maSigPro cluster patterns 8 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
-      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
-        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
-        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + 
-        plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
-      dev.off()
-      
-      jpeg(filename = "maSigPro cluster patterns 7 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
-      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
-        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
-        expression.curve.avgs.clust.7 + 
-        plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
-      dev.off()
-      
-      jpeg(filename = "maSigPro cluster patterns 6 clusters.jpg", width = 13, height = 8, units = "in", res = 300)
-      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
-        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
-        plot_layout(ncol = 3, nrow = 2) + plot_annotation(tag_levels = 'A')
-      dev.off()
-      
-      jpeg(filename = "maSigPro cluster patterns 10 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
-      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
-        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
-        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
-        expression.curve.avgs.clust.10 +
-        plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
-      dev.off()
-      
-      jpeg(filename = "maSigPro cluster patterns 11 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
-      expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
-        expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
-        expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
-        expression.curve.avgs.clust.10 + expression.curve.avgs.clust.11 +
-        plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
+      # jpeg(filename = "maSigPro cluster patterns 8 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
+      # expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+      #   expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+      #   expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + 
+      #   plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
+      # dev.off()
+      # 
+      # jpeg(filename = "maSigPro cluster patterns 7 clusters.jpg", width = 13, height = 12, units = "in", res = 300)
+      # expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+      #   expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+      #   expression.curve.avgs.clust.7 + 
+      #   plot_layout(ncol = 3, nrow = 3) + plot_annotation(tag_levels = 'A')
+      # dev.off()
+      # 
+      # jpeg(filename = "maSigPro cluster patterns 6 clusters.jpg", width = 13, height = 8, units = "in", res = 300)
+      # expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+      #   expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+      #   plot_layout(ncol = 3, nrow = 2) + plot_annotation(tag_levels = 'A')
+      # dev.off()
+      # 
+      # jpeg(filename = "maSigPro cluster patterns 10 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
+      # expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+      #   expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+      #   expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
+      #   expression.curve.avgs.clust.10 +
+      #   plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
+      # dev.off()
+      # 
+      # jpeg(filename = "maSigPro cluster patterns 11 clusters.jpg", width = 13, height = 16, units = "in", res = 300)
+      # expression.curve.avgs.clust.1 + expression.curve.avgs.clust.2 + expression.curve.avgs.clust.3 + 
+      #   expression.curve.avgs.clust.4 + expression.curve.avgs.clust.5 + expression.curve.avgs.clust.6 +
+      #   expression.curve.avgs.clust.7 + expression.curve.avgs.clust.8 + expression.curve.avgs.clust.9 +
+      #   expression.curve.avgs.clust.10 + expression.curve.avgs.clust.11 +
+      #   plot_layout(ncol = 3, nrow = 4) + plot_annotation(tag_levels = 'A')
       dev.off()
    
       
