@@ -135,7 +135,12 @@ With our model design structure specified, now I can fit the model using the `p.
   ss.hypoxia <- p.vector(ddsNorm, hypoxia.design, Q = 0.05, MT.adjust = "BH", counts = FALSE)
 ```
 
+Let's see how many significant genes we found! 
 
+```r
+ss.hypoxia$i # returns the number of significant genes
+[1] 1347
+```
 
 
 
