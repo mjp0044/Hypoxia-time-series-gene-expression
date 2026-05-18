@@ -65,7 +65,7 @@ However, my goal was to find genes with significantly changing trajectories over
 
 `maSigPro` isn't unique in this regard, but it does have a lot of cool features that made it ideal for my needs. For example, it can identify genes that respond differently between treatments (i.e., have different expression patterns over time) but can also handle single series without groups. 
 
-My data takes the form of the latter. There was no separate treatments, all the organisms got the same hypoxia exposure course. We just wanted to know how this species would respond. 
+My data takes the form of the latter. There was no separate treatments, all the organisms got the same hypoxia exposure course. We just wanted to know how this species would respond in general to hypoxia. 
 
 The key thing with using `maSigPro` (and most differential expression programs) is you need to provide an accurate meta data file for the program to understand your data structure. 
 
@@ -89,6 +89,20 @@ C_6     1         6     1
 ```
 
 You can see that samples are in the rows and match the columns of the count matrix, time points are indicates by the Time column, replicate structure in the Replicate column, and finally, the treatments (or lack thereof) indicated in the Group column. For the Group column, all the values just say "1" to indicate we have no separate treatments. 
+
+
+First thing to do when using `maSigPro` is to convert your meta data file into a design object. 
+
+```r
+#Sanity check: make sure rownames of the info key match the colnames of the count matrix
+    all(rownames(hypoxia.edesign) == colnames(ddsNorm)) #needs to be TRUE
+    
+#Create a regression matrix for the full regression model for the single series:
+    hypoxia.design <- make.design.matrix(hypoxia.edesign, degree = 3)
+```
+
+Next, we can compute a regression fit. 
+
 
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
