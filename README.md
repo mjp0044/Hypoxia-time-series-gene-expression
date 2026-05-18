@@ -18,7 +18,8 @@ Below is an illustration showing the longitudinal sampling over time. There were
 - 1 hour of anoxia (0% oxygen)
 - 2 hours into recovery (back at 100% oxygen)
 
-![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/8d8f83fc64ae410017d69020e6ca1bc90e9d8c5c/Figures/Fig%201%20Experiment%20setup.png)
+<img src="figures/DO_timeseries.png" width="600">
+
 *Fig 1: Experimental setup of the hypoxia course.*
 
 
