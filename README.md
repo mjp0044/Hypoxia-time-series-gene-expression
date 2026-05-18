@@ -1,12 +1,22 @@
 # Hypoxia-time-series-gene-expression
 
-# Interactive results at: https://mjp0044.github.io/Hypoxia-time-series-gene-expression/
+## Interactive results at: https://mjp0044.github.io/Hypoxia-time-series-gene-expression/
 
 
 
+# Analysis highlights 
 
-## Results of the cluster analysis following identification of significant genes using maSigPro
+## 1. Identifying genes with longitudinal differential expression
  
+This experiment consisted of measuring gene expression over the course of a typical hypoxia exposure event in the marine crustacean *Tigriopus californicus*. 
+
+Below is an illustration showing the longitudinal sampling over time. There were 5 points at which we sampled RNA. 
+
+- Normoxia (100% oxygen)
+- Mild hypoxia (1/2 way through oxygen depletion)
+- *P*<sub>crit</sub> (the point at which this species can no longer control its respiratory rate)
+- 1 hour of anoxia (0% oxygen)
+- 2 hours into recovery (back at 100% oxygen)
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/8d8f83fc64ae410017d69020e6ca1bc90e9d8c5c/Figures/Fig%201%20Experiment%20setup.png)
 *Fig 1: Experimental setup of the hypoxia course.*
@@ -29,14 +39,4 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-
-![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/bc70dd11516628d7f612e2149e5941d8f3cbfa93/Figures/Fig%204%20Pathway%20summary%20figure.png)
-*Fig 4: A simplified diagram uniting the starch-sucrose pathway, glycolysis, chitin synthesis pathway, and chitin metabolism and showing genes that significantly responded to the hypoxia course. This diagram is a reduced version of Figure S11, which shows the entirety of the KEGG pathways for glycolysis, starch-sucrose metabolism, pentose-phosphate metabolism, fructose-mannose metabolism, TCA cycle, and amino sugar metabolism. The heatmaps for significant genes are colored based on gene expression with red indicating an increase and blue a decrease. The five squares correspond to the five hypoxia levels over the exposure course: normoxia, mild hypoxia, Pcrit, anoxia, and recovery. Inset on each heat map indicates the cluster or pairwise comparison in which that gene was identified.
-
-
----------------------------------------------------------------------------------------------------------------------------
-
-
-![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/e726178777a505b60ec9c753e2685d575e7f4fe4/Figures/Fig%205%20motifs.png)
-Fig 5: A subset of significantly enriched transcription factor binding site motifs across clusters. 
 
