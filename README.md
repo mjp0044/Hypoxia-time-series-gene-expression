@@ -101,7 +101,15 @@ First thing to do when using `maSigPro` is to convert your meta data file into a
     hypoxia.design <- make.design.matrix(hypoxia.edesign, degree = 3)
 ```
 
-Next, we can compute a regression fit. 
+Next, we can fit our model. `maSigPro` generates a regression matrix to model gene expression over time. This model can be modified to include polynomial terms that let you capture changes in expression that are not just linear, but also changes that look quadratic or even cubic. 
+
+<img src="Figures and Tables/masigpro method.png" width="600">
+
+
+Because we had 5 time points, I included both a 2<super>nd</super> order (quadratic) and 3<super>rd</super> order (cubic) polynomial term. 
+
+
+
 
 
 
