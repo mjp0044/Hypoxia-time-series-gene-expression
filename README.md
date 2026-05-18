@@ -106,7 +106,7 @@ Next, we can fit our model. `maSigPro` generates a regression matrix to model ge
 <img src="Figures and Tables/masigpro method.png" width="600">
 
 
-Because we had 5 time points, I included both a 2<super>nd</super> order (quadratic) and 3<super>rd</super> order (cubic) polynomial term. That was specified above when making the design matrix. The design matrix looks like this with those terms included (denoted Time2 and Time3):
+Because we had 5 time points, I included both a 2<sup>nd</sup> order (quadratic) and 3<super>rd</super> order (cubic) polynomial term. That was specified above when making the design matrix. The design matrix looks like this with those terms included (denoted Time2 and Time3):
 
 ```r
 > head(hypoxia.design)
