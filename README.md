@@ -18,7 +18,7 @@ Below is an illustration showing the longitudinal sampling over time. There were
 - 1 hour of anoxia (0% oxygen)
 - 2 hours into recovery (back at 100% oxygen)
 
-<img src="Figures and Tables/Fig 1.png" width="400">
+<img src="Figures and Tables/Fig 1.png" width="500">
 
 *Fig 1: Experimental setup of the hypoxia course.*
 
