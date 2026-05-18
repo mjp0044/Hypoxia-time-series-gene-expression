@@ -126,6 +126,14 @@ C_6     1     1     1
 35_6    2     4     8
 ```
 
+With our model design structure specified, now I can fit the model using the `p.vector` function. 
+
+```r
+# By default maSigPro corrects this p-value for multiple comparisons by applying the linear step-up (B-H) false discovery rate (FDR) 
+# The level of FDR control is given by the function parameter Q.
+# counts = FALSE because I'm using normalized count data
+  ss.hypoxia <- p.vector(ddsNorm, hypoxia.design, Q = 0.05, MT.adjust = "BH", counts = FALSE)
+```
 
 
 
