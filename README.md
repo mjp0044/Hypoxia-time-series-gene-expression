@@ -29,7 +29,10 @@ The first thing I'd like to highlight is the statistical analysis, because I thi
 
 The heaviest load of the analysis in R is carried by the gene expression packages `DESeq2` and `maSigPro`. 
 
-Following batch correction with `Combat-seq` and filtering genes how with low counts, I used `DESeq2` to normalize my count matrix (this was in the form of genes as rownames and mRNA counts for each sample in the columns. 
+Following batch correction with `Combat-seq` and filtering genes how with low counts, I used `DESeq2` to normalize my count matrix.
+
+**ft_filtered_combat** = count matrix
+**coldata** = metadata file for DESeq2 to understand treatments and replicates
 
 ```r
 #Create DESeq object
@@ -54,6 +57,7 @@ TCAL_00006    16.40929    20.47052    25.50225    26.16934     8.630762    23.83
 TCAL_00008   303.57184   325.25390   327.13235   346.74369   353.861238   234.58230   354.43795   365.83298   359.83908   271.88395
 ```
 
+Above you can see a snippet of the matrix with the gene IDs on the row names and the sample replicates on the column names (For context, C = normoxia and 35 = mild hypoxia; numbers indicate replicates)
 
 Most people use `DESeq2` to identify differentially expressed genes between two groups (e.g., hot vs cold treatments or between two time points). 
 
@@ -61,8 +65,30 @@ However, my goal was to find genes with significantly changing trajectories over
 
 `maSigPro` isn't unique in this regard, but it does have a lot of cool features that made it ideal for my needs. For example, it can identify genes that respond differently between treatments (i.e., have different expression patterns over time) but can also handle single series without groups. 
 
-My data takes the form of the latter. It's just 6 replicates of gene expression data over the hypoxia exposure course. 
+My data takes the form of the latter. There was no separate treatments, all the organisms got the same hypoxia exposure course. We just wanted to know how this species would respond. 
 
+The key thing with using `maSigPro` (and most differential expression programs) is you need to provide an accurate meta data file for the program to understand your data structure. 
+
+Now that you've seen a snippet of the count matrix, you can see the meta data file for maSigPro: 
+
+```r
+> head(hypoxia.edesign, 12)
+     Time Replicate Group
+C_1     1         1     1
+C_2     1         2     1
+C_3     1         3     1
+C_4     1         4     1
+C_5     1         5     1
+C_6     1         6     1
+35_1    2         1     1
+35_2    2         2     1
+35_3    2         3     1
+35_4    2         4     1
+35_5    2         5     1
+35_6    2         6     1
+```
+
+You can see that samples are in the rows and match the columns of the count matrix, time points are indicates by the Time column, replicate structure in the Replicate column, and finally, the treatments (or lack thereof) indicated in the Group column. For the Group column, all the values just say "1" to indicate we have no separate treatments. 
 
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
