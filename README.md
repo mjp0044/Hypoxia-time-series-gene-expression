@@ -248,7 +248,7 @@ As you can see above, our statistics don't agree on a single best value for k. T
 
 But that's ok. We can make decisions based on the interprebility of the patterns we see in the clusters. By that I mean we can visibly choose a value for k within a reasoable range based on the statistics and also based on whether adding or subtracting values of k creates redundant patterns or lumps interesting clusters that we don't want to lose into a larger group. 
 
-In the end, I chose k = 9 because it produced enough interesting clusters on which I could further explore based on their patterns of expression over time. 
+In the end, I chose k = 9 because it produced enough interesting clusters on which I could further explore based on their patterns of expression over time and it has a reasonable value for wss (>400), silhouette (>0.6), and gap (3rd highest value). 
 
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
