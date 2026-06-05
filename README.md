@@ -142,6 +142,8 @@ ss.hypoxia$i # returns the number of significant genes
 [1] 1347
 ```
 
+Next we can view how the epxression of those 1,347 genes changed over time using a cluster analysis. 
+
 
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
