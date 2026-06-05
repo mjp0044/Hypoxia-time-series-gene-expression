@@ -142,8 +142,113 @@ ss.hypoxia$i # returns the number of significant genes
 [1] 1347
 ```
 
-Next we can view how the epxression of those 1,347 genes changed over time using a cluster analysis. 
+# Next we can view how the epxression of those 1,347 genes changed over time using a cluster analysis. 
 
+I used the built-in clustering algorithm included in the `maSigPro` package. This algorithm lets me set a hierarchical clustering method and specify any number of centroids. 
+
+I tested values of k = 6 through k = 11 and plotted the gap statistic, silhouette score, and elbow (wss). To do this, I generated a version of my data that is scaled so that I could work with z-scores and a kmeans approach for calculating these statistics. If we don't use scaled data, then our clustering doesn't match the type of pattern recognition that the hierarchical approach uses. 
+
+```r
+# Prepare data
+    # expr_mat is your replicate-level matrix
+     expr_mat <- hypoxia.sigs$sig.genes$Group$sig.profiles  
+    
+    # Make a condition label for each column (strip "_1", "_2", etc.)
+     sample_groups <- gsub("_[0-9]+$", "", colnames(expr_mat))
+    
+    # Collapse replicates by taking row means
+      expr_avg <- sapply(unique(sample_groups), function(grp) {
+        rowMeans(expr_mat[, sample_groups == grp, drop = FALSE])
+      })
+    
+    # Scale for clustering
+      expr_scaled <- scale(expr_avg)
+```
+
+Now that we have scaled expression data, we can compute wss, silhouette, and gap statistics. 
+
+```r
+  ks <- 6:11 # Cluster numbers to test
+    
+  # WSS (Elbow method)
+    wss <- sapply(ks, function(k) {
+      kmeans(expr_scaled, centers = k, nstart = 25)$tot.withinss
+    })
+    
+  # Heuristic: choose k where % reduction in WSS drops the most ("elbow")
+  # Compute relative reduction in WSS
+    rel_diff <- diff(wss) / wss[-length(wss)]
+    best_k_wss <- ks[which.min(rel_diff) + 1]  # +1 because diff reduces length by 1
+    
+    df_wss <- data.frame(k = ks, WSS = wss)
+    
+  # Silhouette
+    avg_sil <- sapply(ks, function(k) {
+      km <- kmeans(expr_scaled, centers = k, nstart = 25)
+      sil <- silhouette(km$cluster, dist(expr_scaled))
+      mean(sil[, 3])
+    })
+    best_k_sil <- ks[which.max(avg_sil)]
+    df_sil <- data.frame(k = ks, avg_sil = avg_sil)
+    
+  #  Gap statistic
+    set.seed(1974) # Go sounders!
+    gap_stat <- clusGap(expr_scaled, FUN = kmeans, K.max = max(ks),
+                        B = 50, nstart = 25)
+    gap_df <- data.frame(
+      k = ks,
+      gap = gap_stat$Tab[ks, "gap"],
+      SE.sim = gap_stat$Tab[ks, "SE.sim"]
+    )
+    best_k_gap <- ks[which.max(gap_df$gap)]
+```
+
+And then we can generate our plots: 
+
+```r
+ # Plotting
+  # WSS
+    wss.plot <- ggplot(df_wss, aes(x = k, y = WSS)) +
+      geom_line() + geom_point(size = 3) +
+      geom_vline(xintercept = best_k_wss, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(100, 500), breaks = seq(100, 500, by =100))+
+      ylab("Within-cluster SS") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Elbow plot (best k = ", best_k_wss, ")"))
+    wss.plot
+    
+  # Silhouette
+    silhouette.plot <- ggplot(df_sil, aes(x = k, y = avg_sil)) +
+      geom_line() + geom_point(size = 3) +
+      geom_vline(xintercept = best_k_sil, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(0.55, 0.8), breaks = seq(0.55, 0.8, by =0.05))+
+      ylab("Average silhouette width") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Silhouette method (best k = ", best_k_sil, ")"))
+    silhouette.plot
+    
+  # Gap statistic
+    gap.plot <- ggplot(gap_df, aes(x = k, y = gap)) +
+      geom_line() + geom_point(size = 3) +
+      geom_errorbar(aes(ymin = gap - SE.sim, ymax = gap + SE.sim), width = 0.2) +
+      geom_vline(xintercept = best_k_gap, linetype = "dashed", color = "red") +
+      scale_x_continuous(breaks = ks) +
+      scale_y_continuous(limits = c(2.8, 3.3), breaks = seq(2.8, 3.3, by =0.1))+
+      ylab("Gap statistic") + xlab("Number of clusters (k)") +
+      ggtitle(paste0("Gap statistic (best k = ", best_k_gap, ")"))
+    gap.plot
+    
+  # Combine plots vertically
+    combined_plot <- wss.plot / silhouette.plot / gap.plot
+    combined_plot
+```
+<img src="Figures and Tables/Clustering statistics.jpg" width="400">
+
+As you can see above, our statistics don't agree on a single best value for k. They often don't because each can be biased toward a lower number of clusters for parsimony or a greater number for increased structure. 
+
+But that's ok. We can make decisions based on the interprebility of the patterns we see in the clusters. By that I mean we can visibly choose a value for k within a reasoable range based on the statistics and also based on whether adding or subtracting values of k creates redundant patterns or lumps interesting clusters that we don't want to lose into a larger group. 
+
+In the end, I chose k = 9 because it produced enough interesting clusters on which I could further explore based on their patterns of expression over time. 
 
 
 ![](https://github.com/mjp0044/Hypoxia-time-series-gene-expression/blob/85d4ad4b4d69f3bccf42f32cd593a32d4166318a/Figures/Fig%202%20maSigPro%20cluster%20patterns%209%20clusters.jpg)
